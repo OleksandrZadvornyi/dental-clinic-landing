@@ -10,9 +10,15 @@
       href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Ubuntu:wght@500&display=swap"
       rel="stylesheet"
     />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
     <link rel="stylesheet" href="/style.css" />
+    <script src="script.js"></script>
     <title>Dentics</title>
   </head>
+
   <body>
     <header>
       <nav>
@@ -20,13 +26,21 @@
           <img src="/images/logo.png" alt="dentics logo" />
           <h2>Dentics</h2>
         </div>
-        <a href="#">Home</a>
-        <a href="#">Services</a>
-        <a href="#">About us</a>
-        <a href="#">Register</a>
+        <ul id="top-nav-list" class="top-nav">
+          <a href="#">Home</a>
+          <a href="#">Services</a>
+          <a href="#">About us</a>
+          <a href="#">Register</a>
+        </ul>
+        <a
+          href="javascript:void(0);"
+          class="icon"
+          onclick="displayTopNav()"
+        >
+          <i class="fa fa-bars"></i>
+        </a>
         <button>Appointment</button>
       </nav>
-      <hr />
     </header>
 
     <main>
