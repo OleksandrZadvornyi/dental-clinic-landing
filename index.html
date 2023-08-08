@@ -7,7 +7,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Ubuntu:wght@500&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Ubuntu:wght@500&display=swap"
       rel="stylesheet"
     />
     <link
@@ -15,7 +15,6 @@
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
     />
     <link rel="stylesheet" href="/style.css" />
-    <script src="script.js"></script>
     <title>Dentics</title>
   </head>
 
@@ -32,11 +31,7 @@
           <a href="#">About us</a>
           <a href="#">Register</a>
         </ul>
-        <a
-          href="javascript:void(0);"
-          class="icon"
-          onclick="displayTopNav()"
-        >
+        <a href="javascript:void(0);" class="icon" onclick="displayTopNav()">
           <i class="fa fa-bars"></i>
         </a>
         <button>Appointment</button>
@@ -64,34 +59,37 @@
           <h2>How to get our service?</h2>
           <p>Just follow these simple steps</p>
         </div>
-        <div>
-          <img src="/images/call.svg" alt="telephone handset" />
-          <p>Call for appointment</p>
-        </div>
-        <div>
-          <img src="/images/date.svg" alt="calendar" />
-          <p>Get a Date & Serial</p>
-        </div>
-        <div>
-          <img src="/images/doctor-consult.svg" alt="plus sign in a square" />
-          <p>Consult Your dentist</p>
+        <div class="steps-wrapper">
+          <div>
+            <img src="/images/call.svg" alt="telephone handset" />
+            <p>Call for appointment</p>
+          </div>
+          <div>
+            <img src="/images/date.svg" alt="calendar" />
+            <p>Get a Date & Serial</p>
+          </div>
+          <div>
+            <img src="/images/doctor-consult.svg" alt="plus sign in a square" />
+            <p>Consult Your dentist</p>
+          </div>
         </div>
       </section>
 
       <section class="always-laugh-section">
         <div class="left-part">
-          <h2>Always <span>Laugh</span> Whenever Its Possible</h2>
+          <h2 id="h">Always <span>Laugh</span> Whenever It's Possible</h2>
           <hr />
           <img src="/images/always-laugh.png" alt="speaking dentist" />
         </div>
+
         <div class="right-part">
-          <p>
+          <p id="p">
             We also offer treatments that improve the appearance of your smile
             giving you the confidence boost you deserve. The process or our
             treatment below.
           </p>
           <hr />
-          <h3>WHAT WE PPROVIDE</h3>
+          <h3>WHAT WE PROVIDE</h3>
           <ul>
             <li>Check ups</li>
             <li>Cosmetic dentistry</li>
@@ -107,8 +105,8 @@
 
       <section class="key-features-section">
         <p>What Makes Us More</p>
-        <span>KEY FEATURE</span>
-        <div>
+        <span>KEY <span>FEATURE</span></span>
+        <div class="kf-title">
           <span>Special</span>
           <hr />
         </div>
@@ -415,5 +413,7 @@
         <p>© 2001-2022, All Rights Reserved</p>
       </div>
     </footer>
+
+    <script src="script.js"></script>
   </body>
 </html>
