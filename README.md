@@ -39,7 +39,7 @@
 
 <div align="center">
   <br/>
-  <a href="https://denticss.netlify.app/"><img src="website-preview.png" width="750" title="hover text"></a>
+  <a href="https://denticss.netlify.app/"><img src="images/website-preview.jpg" width="750" title="hover text"></a>
   <br/><br/>
 </div>
 
