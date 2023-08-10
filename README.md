@@ -17,7 +17,7 @@
     <img src="images/logo.png" alt="Logo" width="80" height="80">
   </a>
 
-<h3 align="center">E-Scooter</h3>
+<h3 align="center">Dentics</h3>
 
   <p align="center">
     A landing page for a dental clinic.
@@ -69,21 +69,21 @@ This project does not use any libraries or frameworks. Only pure HTML, CSS  and 
 
 Oleksandr - [@telegram](https://t.me/oleksandr_zadvornyi) - zadvornyi.alex16@gmail.com
 
-Project Link: [https://github.com/OleksandrZadvornyi/e-scooter-landing-page](https://github.com/OleksandrZadvornyi/e-scooter-landing-page)
+Project Link: [https://github.com/OleksandrZadvornyi/dental-clinic-landing-page](https://github.com/OleksandrZadvornyi/dental-clinic-landing-page)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 
 <!-- MARKDOWN LINKS & IMAGES -->
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
-[contributors-shield]: https://img.shields.io/github/contributors/OleksandrZadvornyi/e-scooter-landing-page.svg?style=for-the-badge
-[contributors-url]: https://github.com/OleksandrZadvornyi/e-scooter-landing-page/graphs/contributors
-[forks-shield]: https://img.shields.io/github/forks/OleksandrZadvornyi/e-scooter-landing-page.svg?style=for-the-badge
-[forks-url]: https://github.com/OleksandrZadvornyi/e-scooter-landing-page/network/members
-[stars-shield]: https://img.shields.io/github/stars/OleksandrZadvornyi/e-scooter-landing-page.svg?style=for-the-badge
-[stars-url]: https://github.com/OleksandrZadvornyi/e-scooter-landing-page/stargazers
-[issues-shield]: https://img.shields.io/github/issues/OleksandrZadvornyi/e-scooter-landing-page.svg?style=for-the-badge
-[issues-url]: https://github.com/OleksandrZadvornyi/e-scooter-landing-page/issues
+[contributors-shield]: https://img.shields.io/github/contributors/OleksandrZadvornyi/dental-clinic-landing-page.svg?style=for-the-badge
+[contributors-url]: https://github.com/OleksandrZadvornyi/dental-clinic-landing-page/graphs/contributors
+[forks-shield]: https://img.shields.io/github/forks/OleksandrZadvornyi/dental-clinic-landing-page.svg?style=for-the-badge
+[forks-url]: https://github.com/OleksandrZadvornyi/dental-clinic-landing-page/network/members
+[stars-shield]: https://img.shields.io/github/stars/OleksandrZadvornyi/dental-clinic-landing-page.svg?style=for-the-badge
+[stars-url]: https://github.com/OleksandrZadvornyi/dental-clinic-landing-page/stargazers
+[issues-shield]: https://img.shields.io/github/issues/OleksandrZadvornyi/dental-clinic-landing-page.svg?style=for-the-badge
+[issues-url]: https://github.com/OleksandrZadvornyi/dental-clinic-landing-page/issues
 [license-shield]: https://img.shields.io/github/license/othneildrew/Best-README-Template.svg?style=for-the-badge
 [license-url]: https://github.com/othneildrew/Best-README-Template/blob/master/LICENSE.txt
 [product-screenshot]: website-preview.jpg
