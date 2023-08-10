@@ -104,7 +104,7 @@
       </section>
 
       <section class="key-features-section">
-        <p>What Makes Us More</p>
+        <h2>What Makes Us More</h2>
         <span>KEY <span>FEATURE</span></span>
         <div class="kf-title">
           <span>Special</span>
@@ -182,8 +182,8 @@
 
       <section class="history-section">
         <h2>Our Glorious</h2>
-        <span>WHO WE ARE</span>
-        <div>
+        <span>WHO <span>WE ARE</span></span>
+        <div class="h-title">
           <hr />
           <span>History</span>
         </div>
@@ -204,10 +204,10 @@
         </div>
       </section>
 
-      <section class="out-doctors-section">
+      <section class="our-doctors-section">
         <h2>Meet Some of Our</h2>
-        <span>MEET OUR DOCTORS</span>
-        <div>
+        <span>MEET OUR <span>DOCTORS</span></span>
+        <div class="od-title">
           <span>Brains</span>
           <hr />
         </div>
@@ -249,19 +249,24 @@
 
       <section class="reviews-section">
         <div class="review-image">
-          <img
-            src="/images/review-image.png"
-            alt="girl with pink hair and glasses"
-          />
-          <h3>Samantha Payne</h3>
-          <div class="stars">
-            <img src="images/star.svg" alt="yellow star" />
-            <img src="images/star.svg" alt="yellow star" />
-            <img src="images/star.svg" alt="yellow star" />
-            <img src="images/star.svg" alt="yellow star" />
-            <img src="images/star.svg" alt="yellow star" />
+          <div class="yellow-rect"></div>
+
+          <div class="review-img">
+            <img
+              src="/images/review-image.png"
+              alt="girl with pink hair and glasses"
+            />
+            <h3>Samantha Payne</h3>
+            <div class="stars">
+              <img src="images/star.svg" alt="yellow star" />
+              <img src="images/star.svg" alt="yellow star" />
+              <img src="images/star.svg" alt="yellow star" />
+              <img src="images/star.svg" alt="yellow star" />
+              <img src="images/star.svg" alt="yellow star" />
+            </div>
           </div>
         </div>
+
         <div class="review-text">
           <hr />
           <h2>What our client says about us</h2>
@@ -273,8 +278,26 @@
             but this time at Digital Implant, my experience was so painless and
             relaxed, there was no discomfort whatsoever.
           </p>
-          <div>
-            <input type="radio" name="review" id="review1" />
+          <div class="review-image-inside">
+            <div class="yellow-rect-inside"></div>
+
+            <div class="review-img-inside">
+              <img
+                src="/images/review-image.png"
+                alt="girl with pink hair and glasses"
+              />
+              <h3>Samantha Payne</h3>
+              <div class="stars">
+                <img src="images/star.svg" alt="yellow star" />
+                <img src="images/star.svg" alt="yellow star" />
+                <img src="images/star.svg" alt="yellow star" />
+                <img src="images/star.svg" alt="yellow star" />
+                <img src="images/star.svg" alt="yellow star" />
+              </div>
+            </div>
+          </div>
+          <div class="review-buttons">
+            <input type="radio" name="review" id="review1" checked />
             <input type="radio" name="review" id="review2" />
             <input type="radio" name="review" id="review3" />
           </div>
@@ -283,20 +306,22 @@
 
       <section class="appointment-section">
         <h2>Consult with our</h2>
-        <span>MAKE AN APPOINTMENT</span>
-        <div>
+        <span>MAKE AN <span>APPOINTMENT</span></span>
+        <div class="as-title">
           <hr />
           <span>Doctor</span>
         </div>
+
         <div class="appointment-content">
           <img src="/images/appointment.png" alt="a smiling client" />
+
           <form action="">
-            <div>
+            <div class="form-name">
               <label for="name">Name</label>
               <input type="text" id="name" placeholder="Full Name" required />
             </div>
 
-            <div>
+            <div class="form-phone">
               <label for="phone">Phone</label>
               <input
                 type="tel"
@@ -307,12 +332,12 @@
               />
             </div>
 
-            <div>
+            <div class="form-date">
               <label for="date">Date</label>
               <input type="date" name="date" id="date" required />
             </div>
 
-            <div>
+            <div class="form-doctor">
               <label for="doctor">Doctor</label>
               <select name="" id="" required>
                 <option value="Dr. Pritis Barua">Dr. Pritis Barua</option>
@@ -323,7 +348,7 @@
               </select>
             </div>
 
-            <div>
+            <div class="form-message">
               <label for="message">Message</label>
               <textarea
                 name="message"
@@ -332,7 +357,7 @@
               ></textarea>
             </div>
 
-            <div>
+            <div class="form-checkbox">
               <input type="checkbox" name="policy" id="policy" required />
               <label for="policy"
                 >You agree to out friendly privacy policy.</label
@@ -345,25 +370,28 @@
       </section>
 
       <section class="newsletter-section">
-        <h2>Subscribe to our newsletter</h2>
-
-        <form action="">
-          <input
-            type="text"
-            name="newsletter-name"
-            id="newsletter-name"
-            placeholder="First Name"
-            required
-          />
-          <input
-            type="email"
-            name="newsletter-email"
-            id="newsletter-email"
-            placeholder="Email address"
-            required
-          />
-          <input type="submit" value="Subscribe Now" />
-        </form>
+        <div class="newsletter-wrapper">
+          <img src="/images/top-left-line.svg" alt="top left line">
+          <img src="/images/bottom-right-line.svg" alt="bottom right line">
+          <h2>Subscribe to our newsletter</h2>
+          <form action="">
+            <input
+              type="text"
+              name="newsletter-name"
+              id="newsletter-name"
+              placeholder="First Name"
+              required
+            />
+            <input
+              type="email"
+              name="newsletter-email"
+              id="newsletter-email"
+              placeholder="Email address"
+              required
+            />
+            <input type="submit" value="Subscribe Now" />
+          </form>
+        </div>
       </section>
     </main>
 
