@@ -1463,3 +1463,19 @@ header > nav > button:hover {
   font-weight: var(--fw-regular);
   line-height: 2.4rem;
 }
+
+/* Animation on scroll styles */
+.hidden {
+  opacity: 0;
+  transition: all 1s;
+}
+
+@media (prefers-reduced-motion) {
+  .hidden {
+    transition: none;
+  }
+}
+
+.show {
+  opacity: 1;
+}
