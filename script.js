@@ -7,7 +7,7 @@ function displayTopNav() {
   }
 }
 
-function myFunc() {
+function alignLines() {
   const h2 = document.getElementById("h");
   const p = document.getElementById("p");
 
@@ -15,22 +15,23 @@ function myFunc() {
   const pLines = Math.floor(p.clientHeight / 34);
 
   p.style.marginBottom =
-    "calc(6.65rem + " + (h2Lines - 2) * 64 + "px - " + (pLines - 3) * 34 + "px)";
+    "calc(6.65rem + " +
+    (h2Lines - 2) * 64 +
+    "px - " +
+    (pLines - 3) * 34 +
+    "px)";
 }
 
-window.onload = myFunc();
-window.addEventListener("resize", myFunc);
-
+window.addEventListener("load", alignLines);
+window.addEventListener("resize", alignLines);
 
 const observer = new IntersectionObserver((entries) => {
   entries.forEach((entry) => {
     console.log(entry);
     if (entry.isIntersecting) {
       entry.target.classList.add("show");
-    } else {
-      entry.target.classList.remove("show");
     }
-  }); 
+  });
 });
 
 const hiddenElements = document.querySelectorAll(".hidden");
