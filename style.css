@@ -76,6 +76,7 @@ nav > div.logo {
   align-items: center;
   gap: 1vw;
   margin-right: auto;
+  cursor: pointer;
 }
 
 nav > div.logo > h2 {
@@ -89,6 +90,7 @@ header > nav > ul {
   display: flex;
   justify-content: baseline;
   gap: 2.5vw;
+  z-index: 99;
 }
 
 header > nav > ul a:first-of-type {
@@ -597,6 +599,7 @@ header > nav > button {
   padding: 2.4rem 5vw;
   margin: 5.6rem 0 8.8rem;
   max-width: 80%;
+  cursor: pointer;
 
   font-family: inherit;
   font-size: 2rem;
@@ -830,6 +833,7 @@ header > nav > button {
   border: 0.15rem solid var(--clr-primary);
   padding: 1.2rem 2.5vw;
   margin-top: 3.2rem;
+  cursor: pointer;
 
   color: var(--clr-primary);
   font-size: 1.6rem;
@@ -1086,6 +1090,10 @@ header > nav > button {
   background-color: var(--clr-white-primary);
 }
 
+.appointment-content > form select {
+  padding: 1.45rem 0 1.45rem 1.6rem;
+}
+
 .form-message {
   grid-column: 1 / 3;
   margin-bottom: 12px;
@@ -1278,6 +1286,12 @@ header > nav > button {
 
 .footer-wrapper div:nth-of-type(3) {
   padding: 0 3vw;
+}
+
+.footer-wrapper div:nth-of-type(3) > p {
+  font-size: 1.4rem;
+  font-weight: var(--fw-regular);
+  line-height: 2rem;
 }
 
 .footer-wrapper div:nth-of-type(3) ul {
