@@ -276,7 +276,7 @@ header > nav > button:hover {
 .get-service-section h2 {
   color: var(--clr-white-primary);
 
-  font-size: 4.2rem;
+  font-size: clamp(3.5rem, 3vw, 4.2rem);
   font-weight: var(--fw-semi-bold);
 }
 
@@ -284,7 +284,7 @@ header > nav > button:hover {
   margin-top: 1.6rem;
   color: var(--clr-white-primary);
 
-  font-size: 2.2rem;
+  font-size: clamp(1.8rem, 1.5vw, 2.2rem);
   font-weight: var(--fw-medium);
 }
 
@@ -489,18 +489,18 @@ header > nav > button:hover {
 
 .key-features-section > h2 {
   color: var(--clr-black-primary);
-  font-size: 4.8rem;
+  font-size: clamp(3.1rem, 3vw, 4.8rem);
   font-weight: var(--fw-semi-bold);
 }
 
 .key-features-section > span {
   color: var(--clr-black-primary);
-  font-size: 5.6rem;
+  font-size: clamp(4.5rem, 3.6vw, 5.6rem);
   font-weight: var(--fw-bold);
 
   position: absolute;
   right: 0;
-  top: 4%;
+  top: 3%;
 }
 
 .key-features-section > span > span {
@@ -509,7 +509,7 @@ header > nav > button:hover {
 
 .key-features-section > .kf-title > span {
   color: var(--clr-black-primary);
-  font-size: 6rem;
+  font-size: clamp(5rem, 4vw, 6rem);
   font-weight: var(--fw-bold);
 }
 
@@ -652,19 +652,19 @@ header > nav > button:hover {
 
 .history-section > h2 {
   color: var(--clr-black-primary);
-  font-size: 4.8rem;
+  font-size: clamp(3.5rem, 3vw, 4.8rem);
   font-weight: var(--fw-semi-bold);
   text-align: end;
 }
 
 .history-section > span {
   color: var(--clr-black-primary);
-  font-size: 5.6rem;
+  font-size: clamp(4.5rem, 3.6vw, 5.6rem);
   font-weight: var(--fw-bold);
 
   position: absolute;
   left: 0;
-  top: 6%;
+  top: 5%;
 }
 
 .history-section > span > span {
@@ -673,7 +673,7 @@ header > nav > button:hover {
 
 .history-section > .h-title > span {
   color: var(--clr-black-primary);
-  font-size: 6rem;
+  font-size: clamp(5rem, 4vw, 6rem);
   font-weight: var(--fw-bold);
 }
 
@@ -763,18 +763,18 @@ header > nav > button:hover {
 
 .our-doctors-section > h2 {
   color: var(--clr-black-primary);
-  font-size: 4.8rem;
+  font-size: clamp(3.5rem, 3vw, 4.8rem);
   font-weight: var(--fw-semi-bold);
 }
 
 .our-doctors-section > span {
   color: var(--clr-black-primary);
-  font-size: 5.6rem;
+  font-size: clamp(4.5rem, 3.6vw, 5.6rem);
   font-weight: var(--fw-bold);
 
   position: absolute;
   right: 0;
-  top: 6%;
+  top: 5%;
 }
 
 .our-doctors-section > span > span {
@@ -783,7 +783,7 @@ header > nav > button:hover {
 
 .our-doctors-section > .od-title > span {
   color: var(--clr-black-primary);
-  font-size: 6rem;
+  font-size: clamp(5rem, 4vw, 6rem);
   font-weight: var(--fw-bold);
 }
 
@@ -810,28 +810,28 @@ header > nav > button:hover {
 }
 
 @media only screen and (max-width: 1200px) {
-  .our-doctors-section > span {
-    display: none;
-  }
-
-  .doctors-wrapper > div:nth-child(1) {
+  .doctors-wrapper > div:nth-of-type(1) {
     display: none;
   }
 }
 
 @media only screen and (max-width: 991px) {
-  .doctors-wrapper > div:nth-child(2) {
+  .our-doctors-section > span {
+    display: none;
+  }
+
+  .doctors-wrapper > div:nth-of-type(2) {
     display: none;
   }
 }
 
 @media only screen and (max-width: 600px) {
-  .doctors-wrapper > div:nth-child(3) {
+  .doctors-wrapper > div:nth-of-type(3) {
     display: none;
   }
 }
 
-.doctors-wrapper::before {
+.doctors-wrapper > span:first-of-type {
   content: url("/images/arrow-left.svg");
   background-color: rgba(24, 24, 27, 0.05);
   padding: 24px 8px;
@@ -839,12 +839,20 @@ header > nav > button:hover {
   cursor: pointer;
 }
 
-.doctors-wrapper::after {
+.doctors-wrapper > span:first-of-type:active {
+  background-color: var(--clr-gray-tone);
+}
+
+.doctors-wrapper > span:last-of-type {
   content: url("/images/arrow-right.svg");
   background-color: rgba(24, 24, 27, 0.05);
   padding: 24px 8px;
   border-radius: 0px 4px 4px 0px;
   cursor: pointer;
+}
+
+.doctors-wrapper > span:last-of-type:active {
+  background-color: var(--clr-gray-tone);
 }
 
 .doctor-info {
@@ -1064,7 +1072,7 @@ header > nav > button:hover {
 
 .appointment-section > h2 {
   color: var(--clr-black-primary);
-  font-size: 4.8rem;
+  font-size: clamp(3.5rem, 3vw, 4.8rem);
   font-weight: var(--fw-semi-bold);
   text-align: end;
   margin-top: 12rem;
@@ -1072,7 +1080,7 @@ header > nav > button:hover {
 
 .appointment-section > span {
   color: var(--clr-black-primary);
-  font-size: 5.6rem;
+  font-size: clamp(4.5rem, 3.6vw, 5.6rem);
   font-weight: var(--fw-bold);
 
   position: absolute;
@@ -1086,7 +1094,7 @@ header > nav > button:hover {
 
 .appointment-section > .as-title > span {
   color: var(--clr-black-primary);
-  font-size: 6rem;
+  font-size: clamp(5rem, 4vw, 6rem);
   font-weight: var(--fw-bold);
 }
 
@@ -1197,10 +1205,6 @@ header > nav > button:hover {
 }
 
 @media only screen and (max-width: 1200px) {
-  .appointment-section > span {
-    display: none;
-  }
-
   .appointment-content {
     flex-direction: column;
     padding-top: 4rem;
@@ -1213,6 +1217,12 @@ header > nav > button:hover {
   }
 
   .appointment-content img {
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 991px) {
+  .appointment-section > span {
     display: none;
   }
 }
