@@ -1,0 +1,146 @@
+.our-doctors-section {
+  width: 85%;
+  margin: 0 auto;
+}
+
+.our-doctors-section > h2 {
+  color: var(--clr-black-primary);
+  font-size: clamp(3.5rem, 3vw, 4.8rem);
+  font-weight: var(--fw-semi-bold);
+}
+
+.our-doctors-section > span {
+  color: var(--clr-black-primary);
+  font-size: clamp(4.5rem, 3.6vw, 5.6rem);
+  font-weight: var(--fw-bold);
+
+  position: absolute;
+  right: 0;
+  top: 5%;
+}
+
+.our-doctors-section > span > span {
+  color: var(--clr-secondary);
+}
+
+.our-doctors-section > .od-title > span {
+  color: var(--clr-black-primary);
+  font-size: clamp(5rem, 4vw, 6rem);
+  font-weight: var(--fw-bold);
+}
+
+.our-doctors-section > .od-title {
+  display: flex;
+  gap: 5vw;
+}
+
+.our-doctors-section > .od-title > hr {
+  width: 100%;
+  height: 0.1rem;
+  border: none;
+  background-color: var(--clr-gray-tone);
+  align-self: flex-end;
+  margin-bottom: 2rem;
+}
+
+.doctors-wrapper {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  gap: 2vw;
+  margin: 8.8rem 0 14.4rem;
+}
+
+@media only screen and (max-width: 1200px) {
+  .doctors-wrapper > div:nth-of-type(1) {
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 991px) {
+  .our-doctors-section > span {
+    display: none;
+  }
+
+  .doctors-wrapper > div:nth-of-type(2) {
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .doctors-wrapper > div:nth-of-type(3) {
+    display: none;
+  }
+}
+
+.doctors-wrapper > span:first-of-type {
+  content: url("../images/arrow-left.svg");
+  background-color: rgba(24, 24, 27, 0.05);
+  padding: 24px 8px;
+  border-radius: 4px 0px 0px 4px;
+  cursor: pointer;
+}
+
+.doctors-wrapper > span:first-of-type:active {
+  background-color: var(--clr-gray-tone);
+}
+
+.doctors-wrapper > span:last-of-type {
+  content: url("../images/arrow-right.svg");
+  background-color: rgba(24, 24, 27, 0.05);
+  padding: 24px 8px;
+  border-radius: 0px 4px 4px 0px;
+  cursor: pointer;
+}
+
+.doctors-wrapper > span:last-of-type:active {
+  background-color: var(--clr-gray-tone);
+}
+
+.doctor-info {
+  color: var(---clr-black-primary);
+  text-align: center;
+}
+
+.doctor-info img {
+  transition: all 0.5s;
+}
+
+.doctor-info img:hover {
+  transform: scale(1.05);
+}
+
+.doctor-info h3 {
+  font-size: 2rem;
+  font-weight: var(--fw-regular);
+  line-height: 3.4rem;
+  margin: 3.2rem 0 0.4rem 0;
+}
+
+.doctor-info p {
+  color: var(--clr-gray-secondary);
+
+  font-size: 1.6rem;
+  font-weight: var(--fw-regular);
+  line-height: 2.4rem;
+}
+
+.doctor-info button {
+  background-color: transparent;
+  border-radius: 0.8rem;
+  border: 0.15rem solid var(--clr-primary);
+  padding: 1.2rem 2.5vw;
+  margin-top: 3.2rem;
+  cursor: pointer;
+
+  color: var(--clr-primary);
+  font-size: 1.6rem;
+  font-weight: var(--fw-regular);
+  line-height: 2.4rem;
+  transition: all 0.5s;
+}
+
+.doctor-info button:hover {
+  background-color: var(--clr-primary);
+  color: var(--clr-white-primary);
+}

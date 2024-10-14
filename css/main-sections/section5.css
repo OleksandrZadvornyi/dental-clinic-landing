@@ -1,0 +1,54 @@
+.bright-your-smile-section {
+  background-color: var(--clr-primary);
+  color: var(--clr-white-primary);
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 12.8rem;
+}
+
+.bright-your-smile-section h2 {
+  padding-top: 8.8rem;
+  font-size: 3.6rem;
+  font-weight: var(--fw-regular);
+  line-height: 6rem;
+  max-width: 70%;
+}
+
+.bright-your-smile-section h2 span {
+  font-size: 4.8rem;
+  font-weight: var(--fw-semi-bold);
+  line-height: 6.4rem;
+}
+
+.bright-your-smile-section p {
+  margin-top: 2.4rem;
+  font-size: 1.8rem;
+  font-weight: var(--fw-regular);
+  line-height: 3rem;
+  max-width: 60%;
+}
+
+.bright-your-smile-section button {
+  color: var(--clr-white-primary);
+  background-color: var(--clr-primary);
+  border-radius: 1.6rem;
+  border: 0.2rem solid var(--clr-white-primary);
+  padding: 2.4rem 5vw;
+  margin: 5.6rem 0 8.8rem;
+  max-width: 80%;
+  cursor: pointer;
+
+  font-family: inherit;
+  font-size: 2rem;
+  font-weight: var(--fw-regular);
+  line-height: 3.4rem;
+  text-align: center;
+  transition: all 0.5s;
+}
+
+.bright-your-smile-section button:hover {
+  color: var(--clr-primary);
+  background-color: var(--clr-white-primary);
+}

@@ -1,0 +1,139 @@
+.always-laugh-section {
+  display: flex;
+}
+
+.always-laugh-section .left-part {
+  background-color: #f8fafc;
+  border-radius: 0px 0px 136px 0px;
+  padding: 11.6rem 0 0 7.5vw;
+  width: 45vw;
+  flex-shrink: 0;
+}
+
+.always-laugh-section .right-part {
+  color: var(--clr-black-primary);
+  padding-right: 7.5vw;
+}
+
+.always-laugh-section h2 {
+  color: var(--clr-black-primary);
+
+  font-size: 4.8rem;
+  font-weight: var(--fw-semi-bold);
+  line-height: 6.4rem;
+  margin-bottom: 5.6rem;
+  padding-right: 1rem;
+}
+
+.always-laugh-section h2 span {
+  color: var(--clr-secondary);
+
+  font-size: 6rem;
+  font-weight: var(--fw-extra-bold);
+  line-height: 6.4rem;
+}
+
+.left-part hr {
+  color: var(--clr-primary);
+  height: 0.1rem;
+}
+
+.left-part img {
+  width: 90%;
+  margin: 4.8rem auto 6.5vw;
+  transition: all 0.5s;
+}
+
+.left-part img:hover {
+  transform: scale(1.05);
+}
+
+.always-laugh-section p {
+  color: var(--clr-gray-secondary);
+  margin: 13.6rem 0 6.65rem 4.7vw;
+
+  font-size: 2rem;
+  font-weight: var(--fw-regular);
+  line-height: 3.4rem;
+}
+
+.right-part hr {
+  color: hsla(240, 5%, 34%, 0.25);
+  height: 0.1rem;
+}
+
+.always-laugh-section h3 {
+  color: var(--clr-black-primary);
+  font-size: 2.4rem;
+  font-weight: var(--fw-medium);
+  margin: 8.8rem 0 0 7.2rem;
+}
+
+.always-laugh-section .right-part ul {
+  list-style: none;
+  -webkit-columns: 2;
+  -moz-columns: 2;
+  columns: 2;
+  margin: 3.2rem 0 0 11.5rem;
+}
+
+.always-laugh-section .right-part li {
+  font-size: 2.2rem;
+  font-weight: var(--fw-medium);
+  margin-bottom: 2.4rem;
+  padding-right: 4rem;
+  text-indent: -2.4rem;
+}
+
+.always-laugh-section .right-part li::before {
+  content: url("../images/shield.svg");
+  display: inline-block;
+  vertical-align: middle;
+  margin-right: 1.5rem;
+}
+
+@media only screen and (max-width: 991px) {
+  .always-laugh-section {
+    flex-direction: column;
+  }
+  .always-laugh-section .left-part {
+    width: 100%;
+    padding: 5.6rem 7.5vw 0 7.5vw;
+    text-align: center;
+    border-radius: 0;
+  }
+
+  .always-laugh-section .left-part h2 {
+    padding: 0;
+  }
+
+  .always-laugh-section .right-part p {
+    margin: 6rem 0;
+    text-align: center;
+  }
+
+  .always-laugh-section .right-part {
+    padding-left: 7.5vw;
+  }
+
+  .always-laugh-section .right-part h3 {
+    margin-left: 0;
+  }
+
+  .always-laugh-section .right-part ul {
+    margin-left: 4.3rem;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .always-laugh-section .right-part h3 {
+    text-align: center;
+  }
+
+  .always-laugh-section .right-part ul {
+    -webkit-columns: 1;
+    -moz-columns: 1;
+    columns: 1;
+    margin-left: 25vw;
+  }
+}
