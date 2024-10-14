@@ -8,7 +8,6 @@
 [![Stargazers][stars-shield]][stars-url]
 [![Issues][issues-shield]][issues-url]
 
-
 <!-- PROJECT LOGO -->
 <br />
 <div align="center">
@@ -29,6 +28,10 @@
     <a href="https://github.com/OleksandrZadvornyi/dental-clinic-landing-page/issues">Report Bug</a>
     ·
     <a href="https://github.com/OleksandrZadvornyi/dental-clinic-landing-page/issues">Request Feature</a>
+  </p>
+
+  <p align="center">
+    <a href="https://app.netlify.com/sites/denticss/deploys"><img src="https://api.netlify.com/api/v1/badges/38070572-4354-43e8-9f8f-d49fd5d25a3a/deploy-status"></a>
   </p>
 </div>
 
