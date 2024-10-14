@@ -3,10 +3,12 @@
 
 
 <!-- PROJECT SHIELDS -->
-[![Contributors][contributors-shield]][contributors-url]
-[![Forks][forks-shield]][forks-url]
-[![Stargazers][stars-shield]][stars-url]
-[![Issues][issues-shield]][issues-url]
+<p align="center">
+  <a href="https://github.com/OleksandrZadvornyi/dental-clinic-landing-page/graphs/contributors"><img src="https://img.shields.io/github/contributors/OleksandrZadvornyi/dental-clinic-landing-page.svg?style=for-the-badge"></a>
+  <a href="https://github.com/OleksandrZadvornyi/dental-clinic-landing-page/network/members"><img src="https://img.shields.io/github/forks/OleksandrZadvornyi/dental-clinic-landing-page.svg?style=for-the-badge"></a>
+  <a href="https://github.com/OleksandrZadvornyi/dental-clinic-landing-page/stargazers"><img src="https://img.shields.io/github/stars/OleksandrZadvornyi/dental-clinic-landing-page.svg?style=for-the-badge"></a>
+  <a href="https://github.com/OleksandrZadvornyi/dental-clinic-landing-page/issues"><img src="https://img.shields.io/github/issues/OleksandrZadvornyi/dental-clinic-landing-page.svg?style=for-the-badge"></a>
+</p>
 
 <!-- PROJECT LOGO -->
 <br />
