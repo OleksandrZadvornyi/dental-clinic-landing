@@ -1,14 +1,10 @@
-<!-- Improved compatibility of back to top link: See: https://github.com/othneildrew/Best-README-Template/pull/73 -->
-<a name="readme-top"></a>
-
-
 <!-- PROJECT SHIELDS -->
 <p align="center">
   <a href="https://github.com/OleksandrZadvornyi/dental-clinic-landing-page/graphs/contributors"><img src="https://img.shields.io/github/contributors/OleksandrZadvornyi/dental-clinic-landing-page.svg?style=for-the-badge"></a>
   <a href="https://github.com/OleksandrZadvornyi/dental-clinic-landing-page/network/members"><img src="https://img.shields.io/github/forks/OleksandrZadvornyi/dental-clinic-landing-page.svg?style=for-the-badge"></a>
   <a href="https://github.com/OleksandrZadvornyi/dental-clinic-landing-page/stargazers"><img src="https://img.shields.io/github/stars/OleksandrZadvornyi/dental-clinic-landing-page.svg?style=for-the-badge"></a>
   <a href="https://github.com/OleksandrZadvornyi/dental-clinic-landing-page/issues"><img src="https://img.shields.io/github/issues/OleksandrZadvornyi/dental-clinic-landing-page.svg?style=for-the-badge"></a>
-  <a href="https://github.com/othneildrew/Best-README-Template/blob/main/LICENSE.txt"><img src="https://img.shields.io/github/license/OleksandrZadvornyi/dental-clinic-landing-page.svg?style=for-the-badge"></a>
+  <a href="https://github.com/OleksandrZadvornyi/dental-clinic-landing-page/blob/master/LICENSE"><img src="https://img.shields.io/github/license/OleksandrZadvornyi/dental-clinic-landing-page.svg?style=for-the-badge"></a>
 </p>
 
 <!-- PROJECT LOGO -->
@@ -18,7 +14,7 @@
     <img src="images/logo.png" alt="Logo" width="80" height="80">
   </a>
 
-<h3 align="center">Dentics</h3>
+  <h3 align="center">Dentics</h3>
 
   <p align="center">
     A landing page for a dental clinic.
@@ -49,13 +45,12 @@
 </div>
 
 This is a landing page for a dental clinic "Dentics" built using the [template](https://www.figma.com/file/MTWUVMJIGoBjUZKJnfTU33/Landing-Page-for-Dental-Clinic-(Community)?type=design&node-id=0-1&mode=design&t=vSPIbxqZ6YM4ftVu-0) from [Figma](https://www.figma.com/). The topic of the website is dental services.
-
+<br><br>
 
 ### Deployment
 
 The website is deployed using [Netlify](https://www.netlify.com/). You can see it [here](https://denticss.netlify.app/).
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
+<br><br>
 
 
 ### Built With
@@ -65,13 +60,13 @@ This project does not use any libraries or frameworks. Only pure HTML, CSS  and 
 * [![HTML][HTML]][HTML-url]
 * [![CSS][CSS]][CSS-url]
 * [![JS][JS]][JS-url]
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
+<br><br>
 
 
 ## License
 
 Distributed under the MIT License. See `LICENSE.txt` for more information.
+<br><br>
 
 
 <!-- CONTACT -->
@@ -81,22 +76,9 @@ Oleksandr - [@telegram](https://t.me/oleksandr_zadvornyi) - zadvornyi.alex16@gma
 
 Project Link: [https://github.com/OleksandrZadvornyi/dental-clinic-landing-page](https://github.com/OleksandrZadvornyi/dental-clinic-landing-page)
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
 
 <!-- MARKDOWN LINKS & IMAGES -->
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
-[contributors-shield]: https://img.shields.io/github/contributors/OleksandrZadvornyi/dental-clinic-landing-page.svg?style=for-the-badge
-[contributors-url]: https://github.com/OleksandrZadvornyi/dental-clinic-landing-page/graphs/contributors
-[forks-shield]: https://img.shields.io/github/forks/OleksandrZadvornyi/dental-clinic-landing-page.svg?style=for-the-badge
-[forks-url]: https://github.com/OleksandrZadvornyi/dental-clinic-landing-page/network/members
-[stars-shield]: https://img.shields.io/github/stars/OleksandrZadvornyi/dental-clinic-landing-page.svg?style=for-the-badge
-[stars-url]: https://github.com/OleksandrZadvornyi/dental-clinic-landing-page/stargazers
-[issues-shield]: https://img.shields.io/github/issues/OleksandrZadvornyi/dental-clinic-landing-page.svg?style=for-the-badge
-[issues-url]: https://github.com/OleksandrZadvornyi/dental-clinic-landing-page/issues
-[license-shield]: https://img.shields.io/github/license/othneildrew/Best-README-Template.svg?style=for-the-badge
-[license-url]: https://github.com/othneildrew/Best-README-Template/blob/master/LICENSE.txt
-[product-screenshot]: website-preview.jpg
 [HTML]: https://img.shields.io/badge/HTML-red?style=for-the-badge&logo=html5&logoColor=white
 [HTML-url]: https://developer.mozilla.org/en-US/docs/Web/HTML
 [CSS]: https://img.shields.io/badge/CSS-blue?&style=for-the-badge&logo=css3&logoColor=white
