@@ -8,6 +8,7 @@
   <a href="https://github.com/OleksandrZadvornyi/dental-clinic-landing-page/network/members"><img src="https://img.shields.io/github/forks/OleksandrZadvornyi/dental-clinic-landing-page.svg?style=for-the-badge"></a>
   <a href="https://github.com/OleksandrZadvornyi/dental-clinic-landing-page/stargazers"><img src="https://img.shields.io/github/stars/OleksandrZadvornyi/dental-clinic-landing-page.svg?style=for-the-badge"></a>
   <a href="https://github.com/OleksandrZadvornyi/dental-clinic-landing-page/issues"><img src="https://img.shields.io/github/issues/OleksandrZadvornyi/dental-clinic-landing-page.svg?style=for-the-badge"></a>
+  <a href="https://github.com/othneildrew/Best-README-Template/blob/main/LICENSE.txt"><img src="https://img.shields.io/github/license/OleksandrZadvornyi/dental-clinic-landing-page.svg?style=for-the-badge"></a>
 </p>
 
 <!-- PROJECT LOGO -->
@@ -66,6 +67,11 @@ This project does not use any libraries or frameworks. Only pure HTML, CSS  and 
 * [![JS][JS]][JS-url]
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+
+## License
+
+Distributed under the MIT License. See `LICENSE.txt` for more information.
 
 
 <!-- CONTACT -->
