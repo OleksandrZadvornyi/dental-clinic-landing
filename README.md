@@ -35,6 +35,7 @@
 </div>
 
 
+
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
@@ -63,6 +64,58 @@ This project does not use any libraries or frameworks. Only pure HTML, CSS  and 
 <br><br>
 
 
+
+<!-- GETTING STARTED -->
+## Getting Started
+
+### Prerequisites
+
+Ensure you have a modern web browser to view the website (e.g., Google Chrome, Firefox, Safari, etc.).
+
+### Cloning the Repository
+
+To get a local copy of this project, run the following command:
+
+```bash
+git clone https://github.com/OleksandrZadvornyi/dental-clinic-landing.git
+```
+
+### Viewing the Project
+
+Navigate into the project directory and open the index.html file in your browser:
+
+```bash
+cd dental-clinic-landing
+open index.html  # or double-click on the file in your file explorer
+```
+
+
+<!-- ROADMAP -->
+## Roadmap
+
+- [x] Create a landing page with HTML and CSS
+- [ ] Improve mobile responsiveness for smaller screens
+- [ ] Add animations to buttons and sections for a smoother user experience
+- [ ] Multi-language Support
+    - [ ] Ukrainian
+
+See the [open issues](https://github.com/OleksandrZadvornyi/dental-clinic-landing/issues) for a full list of proposed features (and known issues).
+
+
+<!-- CONTRIBUTING -->
+## Contributing
+
+If you have suggestions for improvements, feel free to fork the repository and create a pull request. Any contributions you make are **greatly appreciated**. You can also open an issue with the tag "enhancement".
+
+1. Fork the Project
+2. Create your Feature Branch (`git checkout -b feature/AmazingFeature`)
+3. Commit your Changes (`git commit -m 'Add some AmazingFeature'`)
+4. Push to the Branch (`git push origin feature/AmazingFeature`)
+5. Open a Pull Request
+
+
+
+<!-- LICENCE -->
 ## License
 
 Distributed under the MIT License. See `LICENSE.txt` for more information.
