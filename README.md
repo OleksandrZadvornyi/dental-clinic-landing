@@ -98,6 +98,9 @@ open index.html  # or double-click on the file in your file explorer
 - [ ] Add animations to buttons and sections for a smoother user experience
 - [ ] Multi-language Support
     - [ ] Ukrainian
+    - [ ] German
+    - [ ] French
+    - [ ] Spanish
 
 See the [open issues](https://github.com/OleksandrZadvornyi/dental-clinic-landing/issues) for a full list of proposed features (and known issues).
 
