@@ -1,0 +1,27 @@
+{
+  "name": "dental-clinic-landing",
+  "version": "1.0.0",
+  "description": "<!-- PROJECT SHIELDS -->\r <p align=\"center\">\r   <a href=\"https://github.com/OleksandrZadvornyi/dental-clinic-landing-page/graphs/contributors\"><img src=\"https://img.shields.io/github/contributors/OleksandrZadvornyi/dental-clinic-landing-page.svg?style=for-the-badge\"></a>\r   <a href=\"https://github.com/OleksandrZadvornyi/dental-clinic-landing-page/network/members\"><img src=\"https://img.shields.io/github/forks/OleksandrZadvornyi/dental-clinic-landing-page.svg?style=for-the-badge\"></a>\r   <a href=\"https://github.com/OleksandrZadvornyi/dental-clinic-landing-page/stargazers\"><img src=\"https://img.shields.io/github/stars/OleksandrZadvornyi/dental-clinic-landing-page.svg?style=for-the-badge\"></a>\r   <a href=\"https://github.com/OleksandrZadvornyi/dental-clinic-landing-page/issues\"><img src=\"https://img.shields.io/github/issues/OleksandrZadvornyi/dental-clinic-landing-page.svg?style=for-the-badge\"></a>\r   <a href=\"https://github.com/OleksandrZadvornyi/dental-clinic-landing-page/blob/master/LICENSE\"><img src=\"https://img.shields.io/github/license/OleksandrZadvornyi/dental-clinic-landing-page.svg?style=for-the-badge\"></a>\r </p>",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack --mode production",
+    "dev": "webpack --mode development",
+    "start": "webpack serve"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "copy-webpack-plugin": "^12.0.2",
+    "css-loader": "^7.1.2",
+    "file-loader": "^6.2.0",
+    "html-loader": "^5.1.0",
+    "html-webpack-plugin": "^5.6.3",
+    "mini-css-extract-plugin": "^2.9.2",
+    "style-loader": "^4.0.0",
+    "webpack": "^5.97.1",
+    "webpack-cli": "^6.0.1",
+    "webpack-dev-server": "^5.2.0"
+  }
+}
