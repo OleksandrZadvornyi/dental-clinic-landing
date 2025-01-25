@@ -94,8 +94,9 @@ open index.html  # or double-click on the file in your file explorer
 ## Roadmap
 
 - [x] Create a landing page with HTML and CSS
-- [ ] Improve mobile responsiveness for smaller screens
-- [ ] Add animations to buttons and sections for a smoother user experience
+- [x] Improve mobile responsiveness for smaller screens
+- [ ] Integrate webpack into the project
+- [x] Add animations to buttons and sections for a smoother user experience
 - [ ] Multi-language Support
     - [ ] Ukrainian
     - [ ] German
