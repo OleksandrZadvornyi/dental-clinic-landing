@@ -11,7 +11,7 @@
 <br />
 <div align="center">
   <a href="https://github.com/OleksandrZadvornyi/dental-clinic-landing-page">
-    <img src="images/logo.png" alt="Logo" width="80" height="80">
+    <img src="./src/images/logo.png" alt="Logo" width="80" height="80">
   </a>
 
   <h3 align="center">Dentics</h3>
@@ -41,7 +41,7 @@
 
 <div align="center">
   <br/>
-  <a href="https://denticss.netlify.app/"><img src="images/website-preview.jpg" width="750" title="hover text"></a>
+  <a href="https://denticss.netlify.app/"><img src="./src/images/website-preview.jpg" width="750" title="hover text"></a>
   <br/><br/>
 </div>
 
