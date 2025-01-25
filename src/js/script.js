@@ -1,3 +1,5 @@
+import "../css/style.css";
+
 function displayTopNav() {
   const topNav = document.getElementById("top-nav-list");
   if (topNav.className === "top-nav") {
