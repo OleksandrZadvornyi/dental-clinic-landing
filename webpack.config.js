@@ -17,10 +17,6 @@ module.exports = {
         test: /\.css$/, // Process CSS files
         use: [MiniCssExtractPlugin.loader, "css-loader"],
       },
-      // {
-      //   test: /\.html$/i,
-      //   loader: "html-loader",
-      // },
       {
         test: /\.(png|jpe?g|gif|svg)$/i, // Handle images
         type: "asset/resource",
