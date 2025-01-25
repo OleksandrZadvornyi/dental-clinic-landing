@@ -74,7 +74,7 @@
 }
 
 .doctors-wrapper > span:first-of-type {
-  content: url("../images/arrow-left.svg");
+  content: url("../../images/arrow-left.svg");
   background-color: rgba(24, 24, 27, 0.05);
   padding: 24px 8px;
   border-radius: 4px 0px 0px 4px;
@@ -86,7 +86,7 @@
 }
 
 .doctors-wrapper > span:last-of-type {
-  content: url("../images/arrow-right.svg");
+  content: url("../../images/arrow-right.svg");
   background-color: rgba(24, 24, 27, 0.05);
   padding: 24px 8px;
   border-radius: 0px 4px 4px 0px;
