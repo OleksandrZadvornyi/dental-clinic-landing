@@ -24,9 +24,9 @@
     <br />
     <a href="https://github.com/OleksandrZadvornyi/dental-clinic-landing-page">View Demo</a>
     ·
-    <a href="https://github.com/OleksandrZadvornyi/dental-clinic-landing-page/issues">Report Bug</a>
+    <a href="https://github.com/OleksandrZadvornyi/dental-clinic-landing-page/issues/new?labels=bug&template=bug-report---.md">Report Bug</a>
     ·
-    <a href="https://github.com/OleksandrZadvornyi/dental-clinic-landing-page/issues">Request Feature</a>
+    <a href="https://github.com/OleksandrZadvornyi/dental-clinic-landing-page/issues/new?labels=enhancement&template=feature-request---.md">Request Feature</a>
   </p>
 
   <p align="center">
@@ -48,6 +48,7 @@
 This is a landing page for a dental clinic "Dentics" built using the [template](https://www.figma.com/file/MTWUVMJIGoBjUZKJnfTU33/Landing-Page-for-Dental-Clinic-(Community)?type=design&node-id=0-1&mode=design&t=vSPIbxqZ6YM4ftVu-0) from [Figma](https://www.figma.com/). The topic of the website is dental services.
 <br><br>
 
+
 ### Deployment
 
 The website is deployed using [Netlify](https://www.netlify.com/). You can see it [here](https://denticss.netlify.app/).
@@ -56,21 +57,26 @@ The website is deployed using [Netlify](https://www.netlify.com/). You can see i
 
 ### Built With
 
-This project does not use any libraries or frameworks. Only pure HTML, CSS  and JavaScript are used.
+This project is built with the following tools and technologies:
 
 * [![HTML][HTML]][HTML-url]
 * [![CSS][CSS]][CSS-url]
 * [![JS][JS]][JS-url]
-<br><br>
+* [![WEBPACK][WEBPACK]][WEBPACK-url]
+
+<br>
 
 
 
 <!-- GETTING STARTED -->
 ## Getting Started
 
+
 ### Prerequisites
 
-Ensure you have a modern web browser to view the website (e.g., Google Chrome, Firefox, Safari, etc.).
+To work with this project, you need to have **Node.js** and **npm** installed on your machine.
+<br><br>
+
 
 ### Cloning the Repository
 
@@ -79,15 +85,41 @@ To get a local copy of this project, run the following command:
 ```bash
 git clone https://github.com/OleksandrZadvornyi/dental-clinic-landing.git
 ```
+<br>
 
-### Viewing the Project
 
-Navigate into the project directory and open the index.html file in your browser:
+### Installing Dependencies
+
+Navigate into the project directory and install the required npm packages:
 
 ```bash
 cd dental-clinic-landing
-open index.html  # or double-click on the file in your file explorer
+npm install
 ```
+<br>
+
+
+### Building the Project
+
+To create a production-ready build of the project, run:
+
+```bash
+npm run build
+```
+<br>
+
+
+### Viewing the Project Locally
+
+Start a development server to view the project locally:
+
+```bash
+npm run start
+```
+
+After running the command, the website will open in your default browser.
+<br><br>
+
 
 
 <!-- ROADMAP -->
@@ -95,7 +127,7 @@ open index.html  # or double-click on the file in your file explorer
 
 - [x] Create a landing page with HTML and CSS
 - [x] Improve mobile responsiveness for smaller screens
-- [ ] Integrate webpack into the project
+- [x] Integrate webpack into the project
 - [x] Add animations to buttons and sections for a smoother user experience
 - [ ] Multi-language Support
     - [ ] Ukrainian
@@ -104,6 +136,8 @@ open index.html  # or double-click on the file in your file explorer
     - [ ] Spanish
 
 See the [open issues](https://github.com/OleksandrZadvornyi/dental-clinic-landing/issues) for a full list of proposed features (and known issues).
+<br><br>
+
 
 
 <!-- CONTRIBUTING -->
@@ -116,6 +150,7 @@ If you have suggestions for improvements, feel free to fork the repository and c
 3. Commit your Changes (`git commit -m 'Add some AmazingFeature'`)
 4. Push to the Branch (`git push origin feature/AmazingFeature`)
 5. Open a Pull Request
+<br><br>
 
 
 
@@ -124,6 +159,7 @@ If you have suggestions for improvements, feel free to fork the repository and c
 
 Distributed under the MIT License. See `LICENSE.txt` for more information.
 <br><br>
+
 
 
 <!-- CONTACT -->
@@ -142,3 +178,5 @@ Project Link: [https://github.com/OleksandrZadvornyi/dental-clinic-landing-page]
 [CSS-url]: https://developer.mozilla.org/en-US/docs/Web/CSS
 [JS]: https://img.shields.io/badge/JavaScript-yellow?style=for-the-badge&logo=javascript&logoColor=white
 [JS-url]: https://developer.mozilla.org/en-US/docs/Web/JavaScript
+[WEBPACK]: https://img.shields.io/badge/-Webpack-8DD6F9?style=for-the-badge&logo=webpack&logoColor=white
+[WEBPACK-url]: https://developer.mozilla.org/en-US/docs/Web/Webpack
