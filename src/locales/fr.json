@@ -1,0 +1,138 @@
+{
+  "header": {
+    "title": "Dentics",
+    "nav": {
+      "home": "Accueil",
+      "services": "Services",
+      "aboutUs": "À propos de nous",
+      "register": "S'inscrire"
+    },
+    "appointmentButton": "Rendez-vous"
+  },
+  "topInfoSection": {
+    "heading": "Nous offrons des <span>services dentaires</span> de haute qualité",
+    "description": "Adoptez des matériaux transparents via des marchés de niche clés en main.",
+    "getStartedButton": "Commencer",
+    "learnMoreButton": "En savoir plus"
+  },
+  "getServiceSection": {
+    "heading": "Comment obtenir notre service?",
+    "description": "Suivez simplement ces étapes simples",
+    "steps": {
+      "call": "Appelez pour un rendez-vous",
+      "date": "Obtenez une date et un numéro",
+      "consult": "Consultez votre dentiste"
+    }
+  },
+  "alwaysLaughSection": {
+    "heading": "Souriez toujours <span>quand c'est possible</span>",
+    "description": "Nous proposons également des traitements qui améliorent l'apparence de votre sourire, vous donnant la confiance que vous méritez. Le processus de notre traitement est ci-dessous.",
+    "whatWeProvideHeading": "CE QUE NOUS FOURNISSONS",
+    "services": [
+      "Consultations",
+      "Dentisterie esthétique",
+      "Orthodontie",
+      "Contrôles préventifs",
+      "Urgences",
+      "Implants dentaires",
+      "Dentisterie pédiatrique",
+      "Consultations téléphoniques"
+    ]
+  },
+  "keyFeaturesSection": {
+    "heading": "Ce qui nous rend uniques",
+    "subheading": "<span>CARACTÉRISTIQUES</span> PRINCIPALES",
+    "features": [
+      {
+        "title": "Technologie laser",
+        "description": "La technologie laser la plus avancée au monde. Votre expérience de traitement sera relaxante et fluide."
+      },
+      {
+        "title": "Injection indolore",
+        "description": "La seule clinique dentaire à New York, USA, utilisant un système d'injection indolore. Vous serez étonné !"
+      },
+      {
+        "title": "Implants dentaires",
+        "description": "Plus de 30 ans d'expérience en implants dentaires avec des soins spécialisés. Vous pourrez mâcher correctement à nouveau !"
+      },
+      {
+        "title": "Scanner dentaire 3D",
+        "description": "Un des scanners dentaires 3D les plus avancés au monde avec auto-scannage, unique à New York !"
+      },
+      {
+        "title": "Design de sourire numérique",
+        "description": "Nous vous aidons à redessiner votre sourire et à façonner vos dents pour créer un sourire personnalisé pour votre visage !"
+      },
+      {
+        "title": "Couronnes et ponts",
+        "description": "Transformez vos gencives noires en couleur rose avec un traitement au laser sans douleur en une seule séance."
+      }
+    ]
+  },
+  "brightYourSmileSection": {
+    "heading": "Permettez-nous d'éclairer <span>votre sourire !</span>",
+    "description": "Aider les patients à atteindre une bonne santé bucco-dentaire et un beau sourire est un privilège et une responsabilité. Depuis plus de 30 ans, nous sommes fiers d'offrir la meilleure expérience dentaire à New York. Notre approche axée sur le confort est conçue pour répondre aux besoins de vous et de toute votre famille.",
+    "button": "Prendre rendez-vous"
+  },
+  "historySection": {
+    "heading": "Notre Glorieux",
+    "subheading": "QUI <span>NOUS SOMMES</span>",
+    "title": "Notre histoire",
+    "description": "Dentics est un nom bien connu dans le domaine de la dentisterie et des soins bucco-dentaires à New York. Le parcours de cet établissement a commencé en 1990 sous la direction du Dr Jonathon Doe, médaillé d'or de l'Université de Harvard. Le centre dentaire Dentics est à la pointe du traitement dentaire aux États-Unis depuis plus de 30 ans, en phase avec l'évolution du temps et la modernisation de l'époque."
+  },
+  "ourDoctorsSection": {
+    "heading": "Rencontrez quelques-uns de nos",
+    "subheading": "RENCONTREZ NOS <span>MÉDECINS</span>",
+    "title": "Experts",
+    "doctors": [
+      {
+        "name": "Dr Jeanette Hoff",
+        "specialization": "Traitement orthodontique",
+        "education": "École de médecine de Yale",
+        "appointmentButton": "Rendez-vous"
+      },
+      {
+        "name": "Dr David Ambrose",
+        "specialization": "Traitement orthodontique",
+        "education": "École de médecine de Harvard",
+        "appointmentButton": "Rendez-vous"
+      },
+      {
+        "name": "Dr Jenelia Breton",
+        "specialization": "Traitement orthodontique",
+        "education": "École de médecine d'Oxford",
+        "appointmentButton": "Rendez-vous"
+      },
+      {
+        "name": "Dr Jagajeet Aurora",
+        "specialization": "Traitement orthodontique",
+        "education": "École de médecine de Harvard",
+        "appointmentButton": "Rendez-vous"
+      }
+    ]
+  },
+  "footer": {
+    "description": "Dentics est un nom bien connu dans le domaine de la dentisterie et des soins bucco-dentaires à New York. Le parcours de cet établissement a commencé en 1990.",
+    "visiting": {
+      "message": "Nous vous invitons chaleureusement",
+      "title": "Vous voulez visiter notre clinique ?",
+      "schedule": {
+        "days": "Samedi - Jeudi",
+        "hours": "10:00 - 21:00"
+      }
+    },
+    "importantLinks": [
+      "Facebook",
+      "Twitter",
+      "Instagram",
+      "Carrière",
+      "Support",
+      "Politique de confidentialité"
+    ],
+    "contact": {
+      "email": "hello@reallygreatsite.com",
+      "address": "123 Anywhere St., Any City, NY 39200"
+    },
+    "copyright": "© 2001-2022, Tous droits réservés"
+  }
+}

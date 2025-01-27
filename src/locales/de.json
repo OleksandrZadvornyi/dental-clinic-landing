@@ -1,0 +1,138 @@
+{
+  "header": {
+    "title": "Dentics",
+    "nav": {
+      "home": "Startseite",
+      "services": "Dienstleistungen",
+      "aboutUs": "Über uns",
+      "register": "Registrieren"
+    },
+    "appointmentButton": "Termin"
+  },
+  "topInfoSection": {
+    "heading": "Wir bieten hochwertige <span>Zahn</span>dienstleistungen",
+    "description": "Transparente Materialien für spezialisierte Nischenmärkte.",
+    "getStartedButton": "Loslegen",
+    "learnMoreButton": "Mehr erfahren"
+  },
+  "getServiceSection": {
+    "heading": "Wie erhält man unseren Service?",
+    "description": "Befolgen Sie einfach diese einfachen Schritte",
+    "steps": {
+      "call": "Rufen Sie für einen Termin an",
+      "date": "Erhalten Sie ein Datum und eine Nummer",
+      "consult": "Konsultieren Sie Ihren Zahnarzt"
+    }
+  },
+  "alwaysLaughSection": {
+    "heading": "Lächeln Sie <span>immer</span>, wann immer es möglich ist",
+    "description": "Wir bieten auch Behandlungen an, die das Erscheinungsbild Ihres Lächelns verbessern und Ihnen das Selbstvertrauen geben, das Sie verdienen. Der Prozess unserer Behandlung ist unten beschrieben.",
+    "whatWeProvideHeading": "WAS WIR BIETEN",
+    "services": [
+      "Untersuchungen",
+      "Kosmetische Zahnmedizin",
+      "Kieferorthopädie",
+      "Präventive Kontrollen",
+      "Notfälle",
+      "Zahnimplantate",
+      "Kinderzahnheilkunde",
+      "Telefonberatungen"
+    ]
+  },
+  "keyFeaturesSection": {
+    "heading": "Was macht uns besonders",
+    "subheading": "SCHLÜSSEL<span>EIGENSCHAFTEN</span>",
+    "features": [
+      {
+        "title": "Lasertechnologie",
+        "description": "Die fortschrittlichste Diodenlaser-Technologie der Welt. Ihre Behandlungserfahrung wird entspannend und reibungslos sein."
+      },
+      {
+        "title": "Schmerzfreie Injektion",
+        "description": "Die einzige Zahnarztpraxis in New York, USA, die ein schmerzfreies Injektionssystem verwendet. Sie werden erstaunt sein!"
+      },
+      {
+        "title": "Zahnimplantate",
+        "description": "Über 30 Jahre Erfahrung in der Implantologie mit spezialisierter Pflege. Sie können wieder richtig kauen!"
+      },
+      {
+        "title": "3D-Zahnsensor",
+        "description": "Einer der modernsten 3D-Zahnsensoren der Welt mit automatischem Scannen, einzigartig in New York!"
+      },
+      {
+        "title": "Digitales Smile-Design",
+        "description": "Wir helfen, Ihr Lächeln neu zu gestalten und Ihre Zähne zu formen, um ein individuelles Lächeln für Ihr Gesicht zu schaffen!"
+      },
+      {
+        "title": "Kronen und Brücken",
+        "description": "Verwandeln Sie Ihr dunkles Zahnfleisch in einen rosa Farbton mit schmerzloser Laserbehandlung in einer einzigen Sitzung."
+      }
+    ]
+  },
+  "brightYourSmileSection": {
+    "heading": "Lassen Sie uns Ihr <span>Lächeln erhellen!</span>",
+    "description": "Patienten zu helfen, eine gute Zahngesundheit und ein schönes Lächeln zu erreichen, ist ein Privileg und eine Verantwortung. Seit über 30 Jahren bieten wir stolz die beste Zahnarzterfahrung in New York. Unser Komfort-Ansatz ist darauf ausgelegt, die Bedürfnisse von Ihnen und Ihrer ganzen Familie zu erfüllen.",
+    "button": "Termin vereinbaren"
+  },
+  "historySection": {
+    "heading": "Unsere Glorreiche",
+    "subheading": "WER <span>WIR SIND</span>",
+    "title": "Unsere Geschichte",
+    "description": "Dentics ist ein bekannter Name in der Zahnmedizin und Mundpflege in New York. Die Reise dieser Institution begann 1990 unter der Leitung von Dr. Jonathon Doe, Goldmedaillengewinner der Harvard University. Seit über 30 Jahren führt das Dentics-Zentrum die Zahnmedizin in den USA an, im Einklang mit dem Fortschritt der Zeit und der Modernisierung der Ära."
+  },
+  "ourDoctorsSection": {
+    "heading": "Lernen Sie einige unserer",
+    "subheading": "LERNEN SIE UNSERE <span>ÄRZTE</span> KENNEN",
+    "title": "Experten",
+    "doctors": [
+      {
+        "name": "Dr. Jeanette Hoff",
+        "specialization": "Kieferorthopädische Behandlung",
+        "education": "Yale Medical School",
+        "appointmentButton": "Termin"
+      },
+      {
+        "name": "Dr. David Ambrose",
+        "specialization": "Kieferorthopädische Behandlung",
+        "education": "Harvard Medical School",
+        "appointmentButton": "Termin"
+      },
+      {
+        "name": "Dr. Jenelia Breton",
+        "specialization": "Kieferorthopädische Behandlung",
+        "education": "Oxford Medical School",
+        "appointmentButton": "Termin"
+      },
+      {
+        "name": "Dr. Jagajeet Aurora",
+        "specialization": "Kieferorthopädische Behandlung",
+        "education": "Harvard Medical School",
+        "appointmentButton": "Termin"
+      }
+    ]
+  },
+  "footer": {
+    "description": "Dentics ist ein bekannter Name in der Zahnmedizin und Mundpflege in New York. Die Reise dieser Institution begann 1990.",
+    "visiting": {
+      "message": "Wir laden Sie herzlich ein",
+      "title": "Möchten Sie unsere Klinik besuchen?",
+      "schedule": {
+        "days": "Samstag - Donnerstag",
+        "hours": "10:00 - 21:00"
+      }
+    },
+    "importantLinks": [
+      "Facebook",
+      "Twitter",
+      "Instagram",
+      "Karriere",
+      "Unterstützung",
+      "Datenschutzrichtlinie"
+    ],
+    "contact": {
+      "email": "hello@reallygreatsite.com",
+      "address": "123 Anywhere St., Any City, NY 39200"
+    },
+    "copyright": "© 2001-2022, Alle Rechte vorbehalten"
+  }
+}

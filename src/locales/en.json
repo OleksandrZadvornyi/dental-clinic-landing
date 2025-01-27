@@ -1,0 +1,138 @@
+{
+  "header": {
+    "title": "Dentics",
+    "nav": {
+      "home": "Home",
+      "services": "Services",
+      "aboutUs": "About us",
+      "register": "Register"
+    },
+    "appointmentButton": "Appointment"
+  },
+  "topInfoSection": {
+    "heading": "We Provide High Quality <span>Dental</span> Services",
+    "description": "Appropriately embrace transparent materials via turnkey niche markets.",
+    "getStartedButton": "Get Started",
+    "learnMoreButton": "Learn More"
+  },
+  "getServiceSection": {
+    "heading": "How to get our service?",
+    "description": "Just follow these simple steps",
+    "steps": {
+      "call": "Call for appointment",
+      "date": "Get a Date & Serial",
+      "consult": "Consult Your dentist"
+    }
+  },
+  "alwaysLaughSection": {
+    "heading": "Always <span>Laugh</span> Whenever It's Possible",
+    "description": "We also offer treatments that improve the appearance of your smile giving you the confidence boost you deserve. The process or our treatment below.",
+    "whatWeProvideHeading": "WHAT WE PROVIDE",
+    "services": [
+      "Check ups",
+      "Cosmetic dentistry",
+      "Orthodontics",
+      "Preventative checks",
+      "Emergencies",
+      "Dental implants",
+      "Children's dentistry",
+      "Telephone consultations"
+    ]
+  },
+  "keyFeaturesSection": {
+    "heading": "What Makes Us More",
+    "subheading": "KEY <span>FEATURE</span>",
+    "features": [
+      {
+        "title": "Laser Technology",
+        "description": "Worlds most advanced Diode Laser. Your treatment experience will be relaxing & smooth."
+      },
+      {
+        "title": "Painless Injection",
+        "description": "Only dental clinic in New York, USA utilising Painless Injection system. You will be amazed!"
+      },
+      {
+        "title": "Dental Implant",
+        "description": "30+ years of experience in Dental Implant with specialist care. You will be able to chew properly again!"
+      },
+      {
+        "title": "3D Dental Scanner",
+        "description": "One of the world’s most advanced 3D Dental Scanner with auto scanning only one in New York!"
+      },
+      {
+        "title": "Digital Smile Design",
+        "description": "We help to re-design your smile and shape your teeth to create a customised smile for your face!"
+      },
+      {
+        "title": "Crown and Bridge",
+        "description": "Transform you blackish gum to pinkish colour with painless, single appointment Laser Gum Treatment."
+      }
+    ]
+  },
+  "brightYourSmileSection": {
+    "heading": "Let Us Brighten <span>Your Smile!</span>",
+    "description": "Helping patients achieve good dental health & beautiful smile is a privilege & responsibility. For over 30 years, we proudly provided the best dental experience in New York. Our comfort-first approach is designed to meet the needs of you & your entire family.",
+    "button": "Make An Appointment"
+  },
+  "historySection": {
+    "heading": "Our Glorious",
+    "subheading": "WHO <span>WE ARE</span>",
+    "title": "Our history",
+    "description": "Dentics is a well-known name in dental and oral care in New York. The journey of this institution started in 1990 under the hands of Dr. Jonathon Doe, Gold Medalist of Harvard University. Dentics dental center has been leading the way in dental treatment in USA for more than 30 years in keeping with the evolution of time and the modernization of the era."
+  },
+  "ourDoctorsSection": {
+    "heading": "Meet Some of Our",
+    "subheading": "MEET OUR <span>DOCTORS</span>",
+    "title": "Brains",
+    "doctors": [
+      {
+        "name": "Dr. Jeanette Hoff",
+        "specialization": "Orthodontic Treatment",
+        "education": "Yale Medical School",
+        "appointmentButton": "Appointment"
+      },
+      {
+        "name": "Dr. David Ambrose",
+        "specialization": "Orthodontic Treatment",
+        "education": "Harvard Medical School",
+        "appointmentButton": "Appointment"
+      },
+      {
+        "name": "Dr. Jenelia Breton",
+        "specialization": "Orthodontic Treatment",
+        "education": "Oxford Medical School",
+        "appointmentButton": "Appointment"
+      },
+      {
+        "name": "Dr. Jagajeet Aurora",
+        "specialization": "Orthodontic Treatment",
+        "education": "Harvard Medical School",
+        "appointmentButton": "Appointment"
+      }
+    ]
+  },
+  "footer": {
+    "description": "Dentics is a well-known name in dental and oral care in New York. The journey of this institution started in 1990.",
+    "visiting": {
+      "message": "We are welcoming you",
+      "title": "Want to visit our clinic?",
+      "schedule": {
+        "days": "Saturday - Thursday",
+        "hours": "10 am - 9 pm"
+      }
+    },
+    "importantLinks": [
+      "Facebook",
+      "Twitter",
+      "Instagram",
+      "Career",
+      "Support",
+      "Privacy policy"
+    ],
+    "contact": {
+      "email": "hello@reallygreatsite.com",
+      "address": "123 Anywhere St., Any City, NY 39200"
+    },
+    "copyright": "© 2001-2022, All Rights Reserved"
+  }
+}
