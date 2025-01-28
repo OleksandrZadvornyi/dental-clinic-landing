@@ -28,46 +28,46 @@
     "heading": "Lächeln Sie <span>immer</span>, wann immer es möglich ist",
     "description": "Wir bieten auch Behandlungen an, die das Erscheinungsbild Ihres Lächelns verbessern und Ihnen das Selbstvertrauen geben, das Sie verdienen. Der Prozess unserer Behandlung ist unten beschrieben.",
     "whatWeProvideHeading": "WAS WIR BIETEN",
-    "services": [
-      "Untersuchungen",
-      "Kosmetische Zahnmedizin",
-      "Kieferorthopädie",
-      "Präventive Kontrollen",
-      "Notfälle",
-      "Zahnimplantate",
-      "Kinderzahnheilkunde",
-      "Telefonberatungen"
-    ]
+    "services": {
+      "checkUps": "Untersuchungen",
+      "cosmeticDentistry": "Kosmetische Zahnmedizin",
+      "orthodontics": "Kieferorthopädie",
+      "preventativeChecks": "Präventive Kontrollen",
+      "emergencies": "Notfälle",
+      "dentalImplants": "Zahnimplantate",
+      "childrensDentistry": "Kinderzahnheilkunde",
+      "telephoneConsultations": "Telefonberatungen"
+    }
   },
   "keyFeaturesSection": {
     "heading": "Was macht uns besonders",
     "subheading": "SCHLÜSSEL<span>EIGENSCHAFTEN</span>",
-    "features": [
-      {
+    "features": {
+      "laserTechnology": {
         "title": "Lasertechnologie",
         "description": "Die fortschrittlichste Diodenlaser-Technologie der Welt. Ihre Behandlungserfahrung wird entspannend und reibungslos sein."
       },
-      {
+      "painlessInjection": {
         "title": "Schmerzfreie Injektion",
         "description": "Die einzige Zahnarztpraxis in New York, USA, die ein schmerzfreies Injektionssystem verwendet. Sie werden erstaunt sein!"
       },
-      {
+      "dentalImplants": {
         "title": "Zahnimplantate",
         "description": "Über 30 Jahre Erfahrung in der Implantologie mit spezialisierter Pflege. Sie können wieder richtig kauen!"
       },
-      {
+      "3dDentalScanner": {
         "title": "3D-Zahnsensor",
         "description": "Einer der modernsten 3D-Zahnsensoren der Welt mit automatischem Scannen, einzigartig in New York!"
       },
-      {
+      "digitalSmileDesign": {
         "title": "Digitales Smile-Design",
         "description": "Wir helfen, Ihr Lächeln neu zu gestalten und Ihre Zähne zu formen, um ein individuelles Lächeln für Ihr Gesicht zu schaffen!"
       },
-      {
+      "crownAndBridge": {
         "title": "Kronen und Brücken",
         "description": "Verwandeln Sie Ihr dunkles Zahnfleisch in einen rosa Farbton mit schmerzloser Laserbehandlung in einer einzigen Sitzung."
       }
-    ]
+    }
   },
   "brightYourSmileSection": {
     "heading": "Lassen Sie uns Ihr <span>Lächeln erhellen!</span>",
@@ -84,32 +84,32 @@
     "heading": "Lernen Sie einige unserer",
     "subheading": "LERNEN SIE UNSERE <span>ÄRZTE</span> KENNEN",
     "title": "Experten",
-    "doctors": [
-      {
+    "doctors": {
+      "jeanetteHoff": {
         "name": "Dr. Jeanette Hoff",
         "specialization": "Kieferorthopädische Behandlung",
         "education": "Yale Medical School",
         "appointmentButton": "Termin"
       },
-      {
+      "davidAmbrose": {
         "name": "Dr. David Ambrose",
         "specialization": "Kieferorthopädische Behandlung",
         "education": "Harvard Medical School",
         "appointmentButton": "Termin"
       },
-      {
+      "jeneliaBreton": {
         "name": "Dr. Jenelia Breton",
         "specialization": "Kieferorthopädische Behandlung",
         "education": "Oxford Medical School",
         "appointmentButton": "Termin"
       },
-      {
+      "jagajeetAurora": {
         "name": "Dr. Jagajeet Aurora",
         "specialization": "Kieferorthopädische Behandlung",
         "education": "Harvard Medical School",
         "appointmentButton": "Termin"
       }
-    ]
+    }
   },
   "footer": {
     "description": "Dentics ist ein bekannter Name in der Zahnmedizin und Mundpflege in New York. Die Reise dieser Institution begann 1990.",
@@ -121,14 +121,14 @@
         "hours": "10:00 - 21:00"
       }
     },
-    "importantLinks": [
-      "Facebook",
-      "Twitter",
-      "Instagram",
-      "Karriere",
-      "Unterstützung",
-      "Datenschutzrichtlinie"
-    ],
+    "importantLinks": {
+      "facebook": "Facebook",
+      "twitter": "Twitter",
+      "instagram": "Instagram",
+      "career": "Karriere",
+      "support": "Unterstützung",
+      "privacyPolicy": "Datenschutzrichtlinie"
+    },
     "contact": {
       "email": "hello@reallygreatsite.com",
       "address": "123 Anywhere St., Any City, NY 39200"
