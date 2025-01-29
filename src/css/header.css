@@ -128,7 +128,7 @@ header > nav > button:hover {
   background-color: #f0f0f0;
 }
 
-.hidden {
+.hidden-locale {
   display: none;
 }
 
