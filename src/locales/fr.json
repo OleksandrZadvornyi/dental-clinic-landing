@@ -1,0 +1,162 @@
+{
+  "header": {
+    "title": "Dentics",
+    "nav": {
+      "home": "Accueil",
+      "services": "Services",
+      "aboutUs": "À propos",
+      "register": "S'inscrire"
+    },
+    "appointmentButton": "Rendez-vous"
+  },
+  "topInfoSection": {
+    "heading": "Nous Fournissons des Services Dentaires de <span>Haute Qualité</span>",
+    "description": "Adoptez de manière appropriée des matériaux transparents via des marchés de niche clés en main.",
+    "getStartedButton": "Commencer",
+    "learnMoreButton": "En savoir plus"
+  },
+  "getServiceSection": {
+    "heading": "Comment obtenir notre service ?",
+    "description": "Suivez simplement ces étapes simples",
+    "steps": {
+      "call": "Appelez pour un rendez-vous",
+      "date": "Obtenez une date et un numéro",
+      "consult": "Consultez votre dentiste"
+    }
+  },
+  "alwaysLaughSection": {
+    "heading": "Toujours <span>Rire</span> Quand C'est Possible",
+    "description": "Nous proposons également des traitements qui améliorent l'apparence de votre sourire, vous donnant le regain de confiance que vous méritez. Le processus de notre traitement ci-dessous.",
+    "whatWeProvideHeading": "CE QUE NOUS OFFRONS",
+    "services": {
+      "checkUps": "Contrôles",
+      "cosmeticDentistry": "Dentisterie esthétique",
+      "orthodontics": "Orthodontie",
+      "preventativeChecks": "Contrôles préventifs",
+      "emergencies": "Urgences",
+      "dentalImplants": "Implants dentaires",
+      "childrensDentistry": "Dentisterie pour enfants",
+      "telephoneConsultations": "Consultations téléphoniques"
+    }
+  },
+  "keyFeaturesSection": {
+    "heading": "Ce Qui Nous Rend Plus",
+    "subheading": "CARACTÉRISTIQUES <span>CLÉS</span>",
+    "special": "Spécial",
+    "features": {
+      "laserTechnology": {
+        "title": "Technologie Laser",
+        "description": "La technologie laser à diode la plus avancée au monde. Votre expérience de traitement sera relaxante et fluide."
+      },
+      "painlessInjection": {
+        "title": "Injection Sans Douleur",
+        "description": "La seule clinique dentaire de New York, USA, utilisant un système d'injection sans douleur. Vous serez étonné !"
+      },
+      "dentalImplants": {
+        "title": "Implants Dentaires",
+        "description": "Plus de 30 ans d'expérience en implantologie avec des soins spécialisés. Vous pourrez à nouveau mâcher correctement !"
+      },
+      "3dDentalScanner": {
+        "title": "Scanner Dentaire 3D",
+        "description": "L'un des scanners dentaires 3D les plus avancés au monde avec balayage automatique, unique à New York !"
+      },
+      "digitalSmileDesign": {
+        "title": "Conception Numérique du Sourire",
+        "description": "Nous vous aidons à redessiner votre sourire et à façonner vos dents pour créer un sourire personnalisé pour votre visage !"
+      },
+      "crownAndBridge": {
+        "title": "Couronne et Pont",
+        "description": "Transformez vos gencives sombres en une couleur rosée avec un traitement laser sans douleur en une seule séance."
+      }
+    }
+  },
+  "brightYourSmileSection": {
+    "heading": "Laissez-nous Illuminer <span>Votre Sourire !</span>",
+    "description": "Aider les patients à atteindre une bonne santé dentaire et un beau sourire est un privilège et une responsabilité. Depuis plus de 30 ans, nous fournissons fièrement la meilleure expérience dentaire à New York. Notre approche axée sur le confort est conçue pour répondre aux besoins de vous et de votre famille.",
+    "button": "Prendre un Rendez-vous"
+  },
+  "historySection": {
+    "heading": "Notre Glorieuse",
+    "subheading": "QUI <span>NOUS SOMMES</span>",
+    "history": "Histoire",
+    "title": "Notre histoire",
+    "description": "Dentics est un nom bien connu dans les soins dentaires et buccaux à New York. Le voyage de cette institution a commencé en 1990 sous la direction du Dr Jonathon Doe, médaillé d'or de l'Université de Harvard. Le centre dentaire Dentics mène la voie dans le traitement dentaire aux États-Unis depuis plus de 30 ans, en suivant l'évolution du temps et la modernisation de l'ère."
+  },
+  "ourDoctorsSection": {
+    "heading": "Rencontrez Certains de Nos",
+    "subheading": "NOS <span>DOCTEURS</span>",
+    "title": "Cerveaux",
+    "doctors": {
+      "pritisBarua": {
+        "name": "Dr. Pritis Barua"
+      },
+      "jeanetteHoff": {
+        "name": "Dr. Jeanette Hoff",
+        "specialization": "Traitement Orthodontique",
+        "education": "École de Médecine de Yale",
+        "appointmentButton": "Rendez-vous"
+      },
+      "davidAmbrose": {
+        "name": "Dr. David Ambrose",
+        "specialization": "Traitement Orthodontique",
+        "education": "École de Médecine de Harvard",
+        "appointmentButton": "Rendez-vous"
+      },
+      "jeneliaBreton": {
+        "name": "Dr. Jenelia Breton",
+        "specialization": "Traitement Orthodontique",
+        "education": "École de Médecine d'Oxford",
+        "appointmentButton": "Rendez-vous"
+      },
+      "jagajeetAurora": {
+        "name": "Dr. Jagajeet Aurora",
+        "specialization": "Traitement Orthodontique",
+        "education": "École de Médecine de Harvard",
+        "appointmentButton": "Rendez-vous"
+      }
+    }
+  },
+  "reviewsSection": {
+    "author": "Samantha Payne",
+    "title": "Ce que nos clients disent de nous",
+    "review": "J'ai vu beaucoup de dentistes au cours de ma vie parce que j'ai eu de sérieux problèmes dentaires. Mais mes plus grands éloges vont au Dr Jonathon Doe et à son équipe. J'étais toujours très anxieuse en allant chez le dentiste, mais cette fois à Digital Implant, mon expérience a été si indolore et détendue, il n'y a eu aucun inconfort."
+  },
+  "appointmentSection": {
+    "heading": "Consultez Notre",
+    "subheading": "Docteur",
+    "title": "PRENDRE UN <span>RENDEZ-VOUS</span>",
+    "name": "Nom",
+    "phone": "Téléphone",
+    "date": "Date",
+    "message": "Message",
+    "policy": "Vous acceptez notre politique de confidentialité amicale"
+  },
+  "newsletter": "Abonnez-vous à notre newsletter",
+  "footer": {
+    "description": "Dentics est un nom bien connu dans les soins dentaires et buccaux à New York. Le voyage de cette institution a commencé en 1990.",
+    "visiting": {
+      "message": "Nous vous accueillons",
+      "title": "Vous souhaitez visiter notre clinique ?",
+      "schedule": {
+        "days": "Samedi - Jeudi",
+        "hours": "10h - 21h"
+      }
+    },
+    "importantLinks": {
+      "heading": "Liens importants",
+      "facebook": "Facebook",
+      "twitter": "Twitter",
+      "instagram": "Instagram",
+      "career": "Carrière",
+      "support": "Support",
+      "privacyPolicy": "Politique de Confidentialité"
+    },
+    "contact": {
+      "greetings": "Dites-nous bonjour",
+      "email": "hello@reallygreatsite.com",
+      "address_title": "Adresse",
+      "address": "123 Rue Quelconque, Ville Quelconque, NY 39200"
+    },
+    "copyright": "© 2001-2022, Tous droits réservés"
+  }
+}

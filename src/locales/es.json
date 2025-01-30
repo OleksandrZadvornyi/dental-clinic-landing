@@ -1,0 +1,162 @@
+{
+  "header": {
+    "title": "Dentics",
+    "nav": {
+      "home": "Inicio",
+      "services": "Servicios",
+      "aboutUs": "Sobre nosotros",
+      "register": "Registrarse"
+    },
+    "appointmentButton": "Cita"
+  },
+  "topInfoSection": {
+    "heading": "Ofrecemos Servicios Dentales de <span>Alta Calidad</span>",
+    "description": "Adoptamos adecuadamente materiales transparentes a través de mercados nicho llave en mano.",
+    "getStartedButton": "Empezar",
+    "learnMoreButton": "Saber más"
+  },
+  "getServiceSection": {
+    "heading": "¿Cómo obtener nuestro servicio?",
+    "description": "Solo sigue estos simples pasos",
+    "steps": {
+      "call": "Llama para una cita",
+      "date": "Obtén una fecha y número",
+      "consult": "Consulta a tu dentista"
+    }
+  },
+  "alwaysLaughSection": {
+    "heading": "Siempre <span>Ríe</span> Cuando Sea Posible",
+    "description": "También ofrecemos tratamientos que mejoran la apariencia de tu sonrisa, dándote el impulso de confianza que mereces. El proceso de nuestro tratamiento a continuación.",
+    "whatWeProvideHeading": "LO QUE OFRECEMOS",
+    "services": {
+      "checkUps": "Chequeos",
+      "cosmeticDentistry": "Odontología cosmética",
+      "orthodontics": "Ortodoncia",
+      "preventativeChecks": "Chequeos preventivos",
+      "emergencies": "Emergencias",
+      "dentalImplants": "Implantes dentales",
+      "childrensDentistry": "Odontología infantil",
+      "telephoneConsultations": "Consultas telefónicas"
+    }
+  },
+  "keyFeaturesSection": {
+    "heading": "Lo Que Nos Hace Más",
+    "subheading": "CARACTERÍSTICAS <span>CLAVE</span>",
+    "special": "Especial",
+    "features": {
+      "laserTechnology": {
+        "title": "Tecnología Láser",
+        "description": "La tecnología de diodo láser más avanzada del mundo. Tu experiencia de tratamiento será relajante y suave."
+      },
+      "painlessInjection": {
+        "title": "Inyección Sin Dolor",
+        "description": "La única clínica dental en Nueva York, EE. UU., que utiliza un sistema de inyección sin dolor. ¡Quedarás asombrado!"
+      },
+      "dentalImplants": {
+        "title": "Implantes Dentales",
+        "description": "Más de 30 años de experiencia en implantología con cuidado especializado. ¡Podrás masticar correctamente de nuevo!"
+      },
+      "3dDentalScanner": {
+        "title": "Escáner Dental 3D",
+        "description": "Uno de los escáneres dentales 3D más avanzados del mundo con escaneo automático, ¡único en Nueva York!"
+      },
+      "digitalSmileDesign": {
+        "title": "Diseño Digital de Sonrisa",
+        "description": "Te ayudamos a rediseñar tu sonrisa y dar forma a tus dientes para crear una sonrisa personalizada para tu rostro."
+      },
+      "crownAndBridge": {
+        "title": "Corona y Puente",
+        "description": "Transforma tus encías oscuras en un color rosado con un tratamiento láser sin dolor en una sola sesión."
+      }
+    }
+  },
+  "brightYourSmileSection": {
+    "heading": "¡Dejanos Aclarar <span>Tu Sonrisa!</span>",
+    "description": "Ayudar a los pacientes a lograr una buena salud dental y una hermosa sonrisa es un privilegio y una responsabilidad. Durante más de 30 años, hemos proporcionado con orgullo la mejor experiencia dental en Nueva York. Nuestro enfoque de comodidad primero está diseñado para satisfacer las necesidades de usted y toda su familia.",
+    "button": "Haz una cita"
+  },
+  "historySection": {
+    "heading": "Nuestra Gloriosa",
+    "subheading": "QUIÉNES <span>SOMOS</span>",
+    "history": "Historia",
+    "title": "Nuestra historia",
+    "description": "Dentics es un nombre bien conocido en el cuidado dental y oral en Nueva York. El viaje de esta institución comenzó en 1990 bajo la dirección del Dr. Jonathon Doe, Medallista de Oro de la Universidad de Harvard. El centro dental Dentics ha liderado el camino en el tratamiento dental en EE. UU. durante más de 30 años, siguiendo la evolución del tiempo y la modernización de la era."
+  },
+  "ourDoctorsSection": {
+    "heading": "Conoce a Algunos de Nuestros",
+    "subheading": "NUESTROS <span>MÉDICOS</span>",
+    "title": "Mentes",
+    "doctors": {
+      "pritisBarua": {
+        "name": "Dr. Pritis Barua"
+      },
+      "jeanetteHoff": {
+        "name": "Dra. Jeanette Hoff",
+        "specialization": "Tratamiento de Ortodoncia",
+        "education": "Escuela de Medicina de Yale",
+        "appointmentButton": "Cita"
+      },
+      "davidAmbrose": {
+        "name": "Dr. David Ambrose",
+        "specialization": "Tratamiento de Ortodoncia",
+        "education": "Escuela de Medicina de Harvard",
+        "appointmentButton": "Cita"
+      },
+      "jeneliaBreton": {
+        "name": "Dra. Jenelia Breton",
+        "specialization": "Tratamiento de Ortodoncia",
+        "education": "Escuela de Medicina de Oxford",
+        "appointmentButton": "Cita"
+      },
+      "jagajeetAurora": {
+        "name": "Dr. Jagajeet Aurora",
+        "specialization": "Tratamiento de Ortodoncia",
+        "education": "Escuela de Medicina de Harvard",
+        "appointmentButton": "Cita"
+      }
+    }
+  },
+  "reviewsSection": {
+    "author": "Samantha Payne",
+    "title": "Lo que nuestros clientes dicen de nosotros",
+    "review": "He visto a muchos dentistas a lo largo de mi vida porque he tenido algunos problemas dentales serios. Pero mi mayor elogio es para el Dr. Jonathon Doe y su personal. Siempre estaba muy ansiosa al ir al dentista, pero esta vez en Digital Implant, mi experiencia fue tan indolora y relajada, no hubo ninguna molestia."
+  },
+  "appointmentSection": {
+    "heading": "Consulta con nuestro",
+    "subheading": "Doctor",
+    "title": "HACER UNA <span>CITA</span>",
+    "name": "Nombre",
+    "phone": "Teléfono",
+    "date": "Fecha",
+    "message": "Mensaje",
+    "policy": "Aceptas nuestra amigable política de privacidad"
+  },
+  "newsletter": "Suscríbete a nuestro boletín",
+  "footer": {
+    "description": "Dentics es un nombre bien conocido en el cuidado dental y oral en Nueva York. El viaje de esta institución comenzó en 1990.",
+    "visiting": {
+      "message": "Te damos la bienvenida",
+      "title": "¿Quieres visitar nuestra clínica?",
+      "schedule": {
+        "days": "Sábado - Jueves",
+        "hours": "10 am - 9 pm"
+      }
+    },
+    "importantLinks": {
+      "heading": "Enlaces importantes",
+      "facebook": "Facebook",
+      "twitter": "Twitter",
+      "instagram": "Instagram",
+      "career": "Carrera",
+      "support": "Soporte",
+      "privacyPolicy": "Política de Privacidad"
+    },
+    "contact": {
+      "greetings": "Salúdanos",
+      "email": "hello@reallygreatsite.com",
+      "address_title": "Dirección",
+      "address": "123 Calle Cualquiera, Cualquier Ciudad, NY 39200"
+    },
+    "copyright": "© 2001-2022, Todos los derechos reservados"
+  }
+}

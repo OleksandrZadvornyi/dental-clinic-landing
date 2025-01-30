@@ -1,0 +1,162 @@
+{
+  "header": {
+    "title": "Dentics",
+    "nav": {
+      "home": "Home",
+      "services": "Services",
+      "aboutUs": "About us",
+      "register": "Register"
+    },
+    "appointmentButton": "Appointment"
+  },
+  "topInfoSection": {
+    "heading": "We Provide High Quality <span>Dental</span> Services",
+    "description": "Appropriately embrace transparent materials via turnkey niche markets.",
+    "getStartedButton": "Get Started",
+    "learnMoreButton": "Learn More"
+  },
+  "getServiceSection": {
+    "heading": "How to get our service?",
+    "description": "Just follow these simple steps",
+    "steps": {
+      "call": "Call for appointment",
+      "date": "Get a Date & Serial",
+      "consult": "Consult Your dentist"
+    }
+  },
+  "alwaysLaughSection": {
+    "heading": "Always <span>Laugh</span> Whenever It's Possible",
+    "description": "We also offer treatments that improve the appearance of your smile giving you the confidence boost you deserve. The process or our treatment below.",
+    "whatWeProvideHeading": "WHAT WE PROVIDE",
+    "services": {
+      "checkUps": "Check ups",
+      "cosmeticDentistry": "Cosmetic dentistry",
+      "orthodontics": "Orthodontics",
+      "preventativeChecks": "Preventative checks",
+      "emergencies": "Emergencies",
+      "dentalImplants": "Dental implants",
+      "childrensDentistry": "Children's dentistry",
+      "telephoneConsultations": "Telephone consultations"
+    }
+  },
+  "keyFeaturesSection": {
+    "heading": "What Makes Us More",
+    "subheading": "KEY <span>FEATURES</span>",
+    "special": "Special",
+    "features": {
+      "laserTechnology": {
+        "title": "Laser Technology",
+        "description": "The world's most advanced diode laser technology. Your treatment experience will be relaxing and smooth."
+      },
+      "painlessInjection": {
+        "title": "Painless Injection",
+        "description": "The only dental clinic in New York, USA, using a painless injection system. You will be amazed!"
+      },
+      "dentalImplants": {
+        "title": "Dental Implants",
+        "description": "Over 30 years of experience in implantology with specialized care. You can chew properly again!"
+      },
+      "3dDentalScanner": {
+        "title": "3D Dental Scanner",
+        "description": "One of the most advanced 3D dental scanners in the world with automatic scanning, unique in New York!"
+      },
+      "digitalSmileDesign": {
+        "title": "Digital Smile Design",
+        "description": "We help redesign your smile and shape your teeth to create a custom smile for your face!"
+      },
+      "crownAndBridge": {
+        "title": "Crown and Bridge",
+        "description": "Transform your dark gums into a pinkish color with painless laser treatment in a single session."
+      }
+    }
+  },
+  "brightYourSmileSection": {
+    "heading": "Let Us Brighten <span>Your Smile!</span>",
+    "description": "Helping patients achieve good dental health & beautiful smile is a privilege & responsibility. For over 30 years, we proudly provided the best dental experience in New York. Our comfort-first approach is designed to meet the needs of you & your entire family.",
+    "button": "Make An Appointment"
+  },
+  "historySection": {
+    "heading": "Our Glorious",
+    "subheading": "WHO <span>WE ARE</span>",
+    "history": "History",
+    "title": "Our history",
+    "description": "Dentics is a well-known name in dental and oral care in New York. The journey of this institution started in 1990 under the hands of Dr. Jonathon Doe, Gold Medalist of Harvard University. Dentics dental center has been leading the way in dental treatment in USA for more than 30 years in keeping with the evolution of time and the modernization of the era."
+  },
+  "ourDoctorsSection": {
+    "heading": "Meet Some of Our",
+    "subheading": "MEET OUR <span>DOCTORS</span>",
+    "title": "Brains",
+    "doctors": {
+      "pritisBarua": {
+        "name": "Dr. Pritis Barua"
+      },
+      "jeanetteHoff": {
+        "name": "Dr. Jeanette Hoff",
+        "specialization": "Orthodontic Treatment",
+        "education": "Yale Medical School",
+        "appointmentButton": "Appointment"
+      },
+      "davidAmbrose": {
+        "name": "Dr. David Ambrose",
+        "specialization": "Orthodontic Treatment",
+        "education": "Harvard Medical School",
+        "appointmentButton": "Appointment"
+      },
+      "jeneliaBreton": {
+        "name": "Dr. Jenelia Breton",
+        "specialization": "Orthodontic Treatment",
+        "education": "Oxford Medical School",
+        "appointmentButton": "Appointment"
+      },
+      "jagajeetAurora": {
+        "name": "Dr. Jagajeet Aurora",
+        "specialization": "Orthodontic Treatment",
+        "education": "Harvard Medical School",
+        "appointmentButton": "Appointment"
+      }
+    }
+  },
+  "reviewsSection": {
+    "author": "Samantha Payne",
+    "title": "What our clients say about us",
+    "review": "I've seen a lot of Dentists over my lifetime because I've had some serious dental issues. But my highest praise goes to Dr. Jonathon Doe and his staff. I was always very anxious going to the dentist but this time at Digital Implant, my experience was so painless and relaxed, there was no discomfort whatsoever."
+  },
+  "appointmentSection": {
+    "heading": "Consult with our",
+    "subheading": "Doctor",
+    "title": "MAKE AN <span>APPOINTMENT</span>",
+    "name": "Name",
+    "phone": "Phone",
+    "date": "Date",
+    "message": "Message",
+    "policy": "You agree to our friendly privacy policy"
+  },
+  "newsletter": "Subscribe to our newsletter",
+  "footer": {
+    "description": "Dentics is a well-known name in dental and oral care in New York. The journey of this institution started in 1990.",
+    "visiting": {
+      "message": "We are welcoming you",
+      "title": "Want to visit our clinic?",
+      "schedule": {
+        "days": "Saturday - Thursday",
+        "hours": "10 am - 9 pm"
+      }
+    },
+    "importantLinks": {
+      "heading": "Important links",
+      "facebook": "Facebook",
+      "twitter": "Twitter",
+      "instagram": "Instagram",
+      "career": "Career",
+      "support": "Support",
+      "privacyPolicy": "Privacy Policy"
+    },
+    "contact": {
+      "greetings": "Say hello to us",
+      "email": "hello@reallygreatsite.com",
+      "address_title": "Address",
+      "address": "123 Anywhere St., Any City, NY 39200"
+    },
+    "copyright": "© 2001-2022, All Rights Reserved"
+  }
+}

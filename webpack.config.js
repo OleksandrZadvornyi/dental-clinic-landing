@@ -44,7 +44,7 @@ module.exports = {
   ],
   mode: "production",
   devServer: {
-    static: path.resolve(__dirname, "dist"), // Serve files from dist directory
+    static: path.resolve(__dirname, "src"), // Serve files from dist directory
     open: true, // Automatically open the browser
   },
 };

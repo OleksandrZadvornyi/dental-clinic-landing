@@ -85,13 +85,60 @@ header > nav > button:hover {
   box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
 
-@media only screen and (max-width: 765px) {
+.language-switcher {
+  position: relative;
+  display: inline-block;
+}
+
+.lang-btn {
+  background-color: var(--clr-primary);
+  color: #fff;
+  border: none;
+  border-radius: 6px;
+  padding: 1.4rem 1.6rem;
+  font-size: 1.4rem;
+  cursor: pointer;
+  position: relative;
+}
+
+.lang-btn:hover {
+  background-color: #0056b3;
+}
+
+.lang-menu {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  position: absolute;
+  top: 100%;
+  left: 0;
+  background-color: #fff;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  z-index: 1000;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.lang-menu li {
+  padding: 8px 12px;
+  cursor: pointer;
+}
+
+.lang-menu li:hover {
+  background-color: #f0f0f0;
+}
+
+.hidden-locale {
+  display: none;
+}
+
+@media only screen and (max-width: 1084px) {
   .logo > h2 {
     display: none;
   }
 }
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 880px) {
   header > nav > ul {
     display: none;
   }
