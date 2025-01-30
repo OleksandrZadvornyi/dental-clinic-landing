@@ -1,16 +1,32 @@
 import "../css/style.css";
 import i18next from "i18next";
 
+// Function to detect the user's preferred language
+function detectUserLanguage() {
+  const supportedLanguages = ["en", "uk", "fr", "de", "es"]; // List of supported languages
+  const browserLanguages = navigator.languages || [navigator.language]; // Get browser languages
+
+  // Find the first supported language that matches the user's preferences
+  for (const lang of browserLanguages) {
+    const languageCode = lang.split("-")[0]; // Extract the base language code (e.g., "en" from "en-US")
+    if (supportedLanguages.includes(languageCode)) {
+      return languageCode; // Return the first supported language
+    }
+  }
+
+  return "en"; // Default to English if no supported language is found
+}
+
 i18next
   .init({
-    lng: "en", // Default language
+    lng: detectUserLanguage(), // Set the default language based on user's browser settings
     debug: true, // Logs info in the console (useful for development)
     resources: {
       en: {
         translation: require("../locales/en.json"),
       },
-      ukr: {
-        translation: require("../locales/ukr.json"),
+      uk: {
+        translation: require("../locales/uk.json"),
       },
       fr: {
         translation: require("../locales/fr.json"),
@@ -25,6 +41,7 @@ i18next
   })
   .then(() => {
     updateContent(); // Load the default language
+    updateLanguageButton(); // Update the language button text
   });
 
 function updateContent() {
@@ -37,26 +54,38 @@ function updateContent() {
   });
 }
 
+// Function to update the language button text
+function updateLanguageButton() {
+  const languageButton = document.getElementById("language-button");
+  if (languageButton) {
+    languageButton.textContent = i18next.language.toUpperCase(); // Update button text to current language
+  }
+}
+
 document.addEventListener("DOMContentLoaded", () => {
   const languageButton = document.getElementById("language-button");
   const languageMenu = document.getElementById("language-menu");
 
   // Toggle the dropdown menu
-  languageButton.addEventListener("click", () => {
-    languageMenu.classList.toggle("hidden-locale");
-  });
+  if (languageButton) {
+    languageButton.addEventListener("click", () => {
+      languageMenu.classList.toggle("hidden-locale");
+    });
+  }
 
   // Handle language selection
-  languageMenu.addEventListener("click", (event) => {
-    const selectedLanguage = event.target.dataset.lang;
-    if (selectedLanguage) {
-      i18next.changeLanguage(selectedLanguage).then(() => {
-        updateContent(); // Update translations dynamically
-      });
-      languageButton.textContent = selectedLanguage.toUpperCase(); // Update button text
-      languageMenu.classList.add("hidden-locale"); // Hide the dropdown menu
-    }
-  });
+  if (languageMenu) {
+    languageMenu.addEventListener("click", (event) => {
+      const selectedLanguage = event.target.dataset.lang;
+      if (selectedLanguage) {
+        i18next.changeLanguage(selectedLanguage).then(() => {
+          updateContent(); // Update translations dynamically
+          updateLanguageButton(); // Update the language button text
+        });
+        languageMenu.classList.add("hidden-locale"); // Hide the dropdown menu
+      }
+    });
+  }
 
   // Close the dropdown when clicking outside
   document.addEventListener("click", (event) => {
