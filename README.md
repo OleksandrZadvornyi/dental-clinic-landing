@@ -63,6 +63,7 @@ This project is built with the following tools and technologies:
 * [![CSS][CSS]][CSS-url]
 * [![JS][JS]][JS-url]
 * [![WEBPACK][WEBPACK]][WEBPACK-url]
+* [![I18NEXT][I18NEXT]][I18NEXT-url]
 
 <br>
 
@@ -179,4 +180,6 @@ Project Link: [https://github.com/OleksandrZadvornyi/dental-clinic-landing-page]
 [JS]: https://img.shields.io/badge/JavaScript-yellow?style=for-the-badge&logo=javascript&logoColor=white
 [JS-url]: https://developer.mozilla.org/en-US/docs/Web/JavaScript
 [WEBPACK]: https://img.shields.io/badge/-Webpack-8DD6F9?style=for-the-badge&logo=webpack&logoColor=white
-[WEBPACK-url]: https://developer.mozilla.org/en-US/docs/Web/Webpack
+[WEBPACK-url]: https://webpack.js.org/
+[I18NEXT]: https://img.shields.io/badge/i18next-009688?style=for-the-badge&logo=i18next&logoColor=white
+[I18NEXT-url]: https://www.i18next.com/
