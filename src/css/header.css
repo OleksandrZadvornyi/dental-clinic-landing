@@ -132,13 +132,13 @@ header > nav > button:hover {
   display: none;
 }
 
-@media only screen and (max-width: 765px) {
+@media only screen and (max-width: 1084px) {
   .logo > h2 {
     display: none;
   }
 }
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 880px) {
   header > nav > ul {
     display: none;
   }
