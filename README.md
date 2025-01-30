@@ -130,11 +130,11 @@ After running the command, the website will open in your default browser.
 - [x] Improve mobile responsiveness for smaller screens
 - [x] Integrate webpack into the project
 - [x] Add animations to buttons and sections for a smoother user experience
-- [ ] Multi-language Support
-    - [ ] Ukrainian
-    - [ ] German
-    - [ ] French
-    - [ ] Spanish
+- [x] Multi-language Support
+    - [x] Ukrainian
+    - [x] German
+    - [x] French
+    - [x] Spanish
 
 See the [open issues](https://github.com/OleksandrZadvornyi/dental-clinic-landing/issues) for a full list of proposed features (and known issues).
 <br><br>
