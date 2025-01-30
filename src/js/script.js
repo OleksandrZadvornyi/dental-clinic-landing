@@ -104,6 +104,8 @@ function displayTopNav() {
   }
 }
 
+document.getElementById("top-nav-icon").addEventListener("click", displayTopNav);
+
 function alignLines() {
   const h2 = document.getElementById("h");
   const p = document.getElementById("p");
