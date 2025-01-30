@@ -10,111 +10,132 @@
     "appointmentButton": "Termin"
   },
   "topInfoSection": {
-    "heading": "Wir bieten hochwertige <span>Zahn</span>dienstleistungen",
-    "description": "Transparente Materialien für spezialisierte Nischenmärkte.",
+    "heading": "Wir bieten hochwertige <span>zahnärztliche</span> Dienstleistungen",
+    "description": "Wir setzen transparente Materialien gezielt über schlüsselfertige Nischenmärkte ein.",
     "getStartedButton": "Loslegen",
     "learnMoreButton": "Mehr erfahren"
   },
   "getServiceSection": {
-    "heading": "Wie erhält man unseren Service?",
-    "description": "Befolgen Sie einfach diese einfachen Schritte",
+    "heading": "Wie erhalte ich unseren Service?",
+    "description": "Folgen Sie einfach diesen einfachen Schritten",
     "steps": {
       "call": "Rufen Sie für einen Termin an",
-      "date": "Erhalten Sie ein Datum und eine Nummer",
+      "date": "Erhalten Sie ein Datum & eine Nummer",
       "consult": "Konsultieren Sie Ihren Zahnarzt"
     }
   },
   "alwaysLaughSection": {
-    "heading": "Lächeln Sie <span>immer</span>, wann immer es möglich ist",
-    "description": "Wir bieten auch Behandlungen an, die das Erscheinungsbild Ihres Lächelns verbessern und Ihnen das Selbstvertrauen geben, das Sie verdienen. Der Prozess unserer Behandlung ist unten beschrieben.",
+    "heading": "Immer <span>lachen</span>, wenn möglich",
+    "description": "Wir bieten auch Behandlungen an, die das Aussehen Ihres Lächelns verbessern und Ihnen den verdienten Vertrauensschub geben. Der Prozess unserer Behandlung unten.",
     "whatWeProvideHeading": "WAS WIR BIETEN",
     "services": {
-      "checkUps": "Untersuchungen",
-      "cosmeticDentistry": "Kosmetische Zahnmedizin",
-      "orthodontics": "Kieferorthopädie",
-      "preventativeChecks": "Präventive Kontrollen",
+      "checkUps": "Kontrollen",
+      "cosmeticDentistry": "Ästhetische Zahnheilkunde",
+      "orthodontics": "Orthodontie",
+      "preventativeChecks": "Präventivkontrollen",
       "emergencies": "Notfälle",
       "dentalImplants": "Zahnimplantate",
       "childrensDentistry": "Kinderzahnheilkunde",
-      "telephoneConsultations": "Telefonberatungen"
+      "telephoneConsultations": "Telefonische Beratungen"
     }
   },
   "keyFeaturesSection": {
-    "heading": "Was macht uns besonders",
+    "heading": "Was uns auszeichnet",
     "subheading": "SCHLÜSSEL<span>EIGENSCHAFTEN</span>",
+    "special": "Besonders",
     "features": {
       "laserTechnology": {
         "title": "Lasertechnologie",
-        "description": "Die fortschrittlichste Diodenlaser-Technologie der Welt. Ihre Behandlungserfahrung wird entspannend und reibungslos sein."
+        "description": "Die weltweit fortschrittlichste Diodenlasertechnologie. Ihr Behandlungserlebnis wird entspannend und reibungslos sein."
       },
       "painlessInjection": {
-        "title": "Schmerzfreie Injektion",
-        "description": "Die einzige Zahnarztpraxis in New York, USA, die ein schmerzfreies Injektionssystem verwendet. Sie werden erstaunt sein!"
+        "title": "Schmerzlose Injektion",
+        "description": "Die einzige Zahnklinik in New York, USA, die ein schmerzloses Injektionssystem verwendet. Sie werden begeistert sein!"
       },
       "dentalImplants": {
         "title": "Zahnimplantate",
-        "description": "Über 30 Jahre Erfahrung in der Implantologie mit spezialisierter Pflege. Sie können wieder richtig kauen!"
+        "description": "Über 30 Jahre Erfahrung in der Implantologie mit spezialisierter Betreuung. Sie können wieder richtig kauen!"
       },
       "3dDentalScanner": {
-        "title": "3D-Zahnsensor",
-        "description": "Einer der modernsten 3D-Zahnsensoren der Welt mit automatischem Scannen, einzigartig in New York!"
+        "title": "3D-Zahnscanner",
+        "description": "Einer der fortschrittlichsten 3D-Zahnscanner der Welt mit automatischem Scannen, einzigartig in New York!"
       },
       "digitalSmileDesign": {
-        "title": "Digitales Smile-Design",
-        "description": "Wir helfen, Ihr Lächeln neu zu gestalten und Ihre Zähne zu formen, um ein individuelles Lächeln für Ihr Gesicht zu schaffen!"
+        "title": "Digitales Lächeldesign",
+        "description": "Wir helfen Ihnen, Ihr Lächeln neu zu gestalten und Ihre Zähne zu formen, um ein individuelles Lächeln für Ihr Gesicht zu schaffen!"
       },
       "crownAndBridge": {
-        "title": "Kronen und Brücken",
-        "description": "Verwandeln Sie Ihr dunkles Zahnfleisch in einen rosa Farbton mit schmerzloser Laserbehandlung in einer einzigen Sitzung."
+        "title": "Krone und Brücke",
+        "description": "Verwandeln Sie Ihre dunklen Zahnfleisch in eine rosige Farbe mit einer schmerzlosen Laserbehandlung in einer einzigen Sitzung."
       }
     }
   },
   "brightYourSmileSection": {
-    "heading": "Lassen Sie uns Ihr <span>Lächeln erhellen!</span>",
-    "description": "Patienten zu helfen, eine gute Zahngesundheit und ein schönes Lächeln zu erreichen, ist ein Privileg und eine Verantwortung. Seit über 30 Jahren bieten wir stolz die beste Zahnarzterfahrung in New York. Unser Komfort-Ansatz ist darauf ausgelegt, die Bedürfnisse von Ihnen und Ihrer ganzen Familie zu erfüllen.",
-    "button": "Termin vereinbaren"
+    "heading": "Lassen Sie uns Ihr <span>Lächeln aufhellen!</span>",
+    "description": "Patienten zu helfen, eine gute Zahngesundheit und ein schönes Lächeln zu erreichen, ist ein Privileg und eine Verantwortung. Seit über 30 Jahren bieten wir stolz die beste zahnärztliche Erfahrung in New York. Unser komfortorientierter Ansatz ist darauf ausgelegt, die Bedürfnisse von Ihnen und Ihrer ganzen Familie zu erfüllen.",
+    "button": "Einen Termin vereinbaren"
   },
   "historySection": {
-    "heading": "Unsere Glorreiche",
+    "heading": "Unsere glorreiche",
     "subheading": "WER <span>WIR SIND</span>",
+    "history": "Geschichte",
     "title": "Unsere Geschichte",
-    "description": "Dentics ist ein bekannter Name in der Zahnmedizin und Mundpflege in New York. Die Reise dieser Institution begann 1990 unter der Leitung von Dr. Jonathon Doe, Goldmedaillengewinner der Harvard University. Seit über 30 Jahren führt das Dentics-Zentrum die Zahnmedizin in den USA an, im Einklang mit dem Fortschritt der Zeit und der Modernisierung der Ära."
+    "description": "Dentics ist ein bekannter Name in der Zahn- und Mundpflege in New York. Die Reise dieser Institution begann 1990 unter der Leitung von Dr. Jonathon Doe, Goldmedaillengewinner der Harvard University. Das Dentics-Zahnzentrum führt seit mehr als 30 Jahren den Weg in der zahnärztlichen Behandlung in den USA, im Einklang mit der Entwicklung der Zeit und der Modernisierung der Ära."
   },
   "ourDoctorsSection": {
-    "heading": "Lernen Sie einige unserer",
-    "subheading": "LERNEN SIE UNSERE <span>ÄRZTE</span> KENNEN",
-    "title": "Experten",
+    "heading": "Treffen Sie einige unserer",
+    "subheading": "UNSERE <span>ÄRZTE</span>",
+    "title": "Köpfe",
     "doctors": {
+      "pritisBarua": {
+        "name": "Dr. Pritis Barua"
+      },
       "jeanetteHoff": {
         "name": "Dr. Jeanette Hoff",
-        "specialization": "Kieferorthopädische Behandlung",
+        "specialization": "Orthodontische Behandlung",
         "education": "Yale Medical School",
         "appointmentButton": "Termin"
       },
       "davidAmbrose": {
         "name": "Dr. David Ambrose",
-        "specialization": "Kieferorthopädische Behandlung",
+        "specialization": "Orthodontische Behandlung",
         "education": "Harvard Medical School",
         "appointmentButton": "Termin"
       },
       "jeneliaBreton": {
         "name": "Dr. Jenelia Breton",
-        "specialization": "Kieferorthopädische Behandlung",
+        "specialization": "Orthodontische Behandlung",
         "education": "Oxford Medical School",
         "appointmentButton": "Termin"
       },
       "jagajeetAurora": {
         "name": "Dr. Jagajeet Aurora",
-        "specialization": "Kieferorthopädische Behandlung",
+        "specialization": "Orthodontische Behandlung",
         "education": "Harvard Medical School",
         "appointmentButton": "Termin"
       }
     }
   },
+  "reviewsSection": {
+    "author": "Samantha Payne",
+    "title": "Was unsere Kunden über uns sagen",
+    "review": "Ich habe in meinem Leben viele Zahnärzte gesehen, weil ich einige ernsthafte Zahnprobleme hatte. Aber mein höchstes Lob geht an Dr. Jonathon Doe und sein Team. Ich war immer sehr ängstlich, wenn ich zum Zahnarzt ging, aber diesmal bei Digital Implant war meine Erfahrung so schmerzlos und entspannt, es gab überhaupt keine Beschwerden."
+  },
+  "appointmentSection": {
+    "heading": "Konsultieren Sie unseren",
+    "subheading": "Arzt",
+    "title": "<span>TERMIN BUCHEN</span>",
+    "name": "Name",
+    "phone": "Telefon",
+    "date": "Datum",
+    "message": "Nachricht",
+    "policy": "Sie stimmen unserer freundlichen Datenschutzrichtlinie zu"
+  },
+  "newsletter": "Abonnieren Sie unseren Newsletter",
   "footer": {
-    "description": "Dentics ist ein bekannter Name in der Zahnmedizin und Mundpflege in New York. Die Reise dieser Institution begann 1990.",
+    "description": "Dentics ist ein bekannter Name in der Zahn- und Mundpflege in New York. Die Reise dieser Institution begann 1990.",
     "visiting": {
-      "message": "Wir laden Sie herzlich ein",
+      "message": "Wir heißen Sie willkommen",
       "title": "Möchten Sie unsere Klinik besuchen?",
       "schedule": {
         "days": "Samstag - Donnerstag",
@@ -122,16 +143,19 @@
       }
     },
     "importantLinks": {
+      "heading": "Wichtige Links",
       "facebook": "Facebook",
       "twitter": "Twitter",
       "instagram": "Instagram",
       "career": "Karriere",
-      "support": "Unterstützung",
+      "support": "Support",
       "privacyPolicy": "Datenschutzrichtlinie"
     },
     "contact": {
+      "greetings": "Sagen Sie uns Hallo",
       "email": "hello@reallygreatsite.com",
-      "address": "123 Anywhere St., Any City, NY 39200"
+      "address_title": "Adresse",
+      "address": "123 Irgendwo Straße, Irgendeine Stadt, NY 39200"
     },
     "copyright": "© 2001-2022, Alle Rechte vorbehalten"
   }

@@ -41,7 +41,8 @@
   },
   "keyFeaturesSection": {
     "heading": "What Makes Us More",
-    "subheading": "KEY <span>FEATURE</span>",
+    "subheading": "KEY <span>FEATURES</span>",
+    "special": "Special",
     "features": {
       "laserTechnology": {
         "title": "Laser Technology",
@@ -77,6 +78,7 @@
   "historySection": {
     "heading": "Our Glorious",
     "subheading": "WHO <span>WE ARE</span>",
+    "history": "History",
     "title": "Our history",
     "description": "Dentics is a well-known name in dental and oral care in New York. The journey of this institution started in 1990 under the hands of Dr. Jonathon Doe, Gold Medalist of Harvard University. Dentics dental center has been leading the way in dental treatment in USA for more than 30 years in keeping with the evolution of time and the modernization of the era."
   },
@@ -85,6 +87,9 @@
     "subheading": "MEET OUR <span>DOCTORS</span>",
     "title": "Brains",
     "doctors": {
+      "pritisBarua": {
+        "name": "Dr. Pritis Barua"
+      },
       "jeanetteHoff": {
         "name": "Dr. Jeanette Hoff",
         "specialization": "Orthodontic Treatment",
@@ -111,6 +116,22 @@
       }
     }
   },
+  "reviewsSection": {
+    "author": "Samantha Payne",
+    "title": "What our clients say about us",
+    "review": "I've seen a lot of Dentists over my lifetime because I've had some serious dental issues. But my highest praise goes to Dr. Jonathon Doe and his staff. I was always very anxious going to the dentist but this time at Digital Implant, my experience was so painless and relaxed, there was no discomfort whatsoever."
+  },
+  "appointmentSection": {
+    "heading": "Consult with our",
+    "subheading": "Doctor",
+    "title": "MAKE AN <span>APPOINTMENT</span>",
+    "name": "Name",
+    "phone": "Phone",
+    "date": "Date",
+    "message": "Message",
+    "policy": "You agree to our friendly privacy policy"
+  },
+  "newsletter": "Subscribe to our newsletter",
   "footer": {
     "description": "Dentics is a well-known name in dental and oral care in New York. The journey of this institution started in 1990.",
     "visiting": {
@@ -122,6 +143,7 @@
       }
     },
     "importantLinks": {
+      "heading": "Important links",
       "facebook": "Facebook",
       "twitter": "Twitter",
       "instagram": "Instagram",
@@ -130,7 +152,9 @@
       "privacyPolicy": "Privacy Policy"
     },
     "contact": {
+      "greetings": "Say hello to us",
       "email": "hello@reallygreatsite.com",
+      "address_title": "Address",
       "address": "123 Anywhere St., Any City, NY 39200"
     },
     "copyright": "© 2001-2022, All Rights Reserved"
