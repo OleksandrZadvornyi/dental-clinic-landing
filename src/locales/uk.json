@@ -158,5 +158,14 @@
       "address": "123 Будь-яка вулиця, Будь-яке місто, NY 39200"
     },
     "copyright": "© 2001-2022, Всі права захищені"
+  },
+  "forms": {
+    "fullNamePlaceholder": "Повне ім'я",
+    "phonePlaceholder": "Телефон",
+    "messagePlaceholder": "Додайте повідомлення...",
+    "appointmentValue": "Підтвердити запис",
+    "newsletterNamePlaceholder": "Ім'я",
+    "newsletterEmailPlaceholder": "Електронна адреса",
+    "subscribeButton": "Підписатися зараз"
   }
 }

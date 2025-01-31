@@ -45,11 +45,30 @@ i18next
   });
 
 function updateContent() {
+  // Update elements with [data-i18n]
   document.querySelectorAll("[data-i18n]").forEach((el) => {
     const key = el.getAttribute("data-i18n");
     const translatedText = i18next.t(key);
     if (translatedText) {
       el.innerHTML = translatedText;
+    }
+  });
+
+  // Update placeholders
+  document.querySelectorAll("[data-i18n-placeholder]").forEach((el) => {
+    const key = el.getAttribute("data-i18n-placeholder");
+    const translatedText = i18next.t(key);
+    if (translatedText) {
+      el.setAttribute("placeholder", translatedText);
+    }
+  });
+
+  // Update input values (e.g., submit buttons)
+  document.querySelectorAll("[data-i18n-value]").forEach((el) => {
+    const key = el.getAttribute("data-i18n-value");
+    const translatedText = i18next.t(key);
+    if (translatedText) {
+      el.setAttribute("value", translatedText);
     }
   });
 }
@@ -104,7 +123,9 @@ function displayTopNav() {
   }
 }
 
-document.getElementById("top-nav-icon").addEventListener("click", displayTopNav);
+document
+  .getElementById("top-nav-icon")
+  .addEventListener("click", displayTopNav);
 
 function alignLines() {
   const h2 = document.getElementById("h");

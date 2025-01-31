@@ -158,5 +158,14 @@
       "address": "123 Rue Quelconque, Ville Quelconque, NY 39200"
     },
     "copyright": "© 2001-2022, Tous droits réservés"
+  },
+  "forms": {
+    "fullNamePlaceholder": "Nom complet",
+    "phonePlaceholder": "Téléphone",
+    "messagePlaceholder": "Ajouter un message...",
+    "appointmentValue": "Confirmer le rendez-vous",
+    "newsletterNamePlaceholder": "Prénom",
+    "newsletterEmailPlaceholder": "Adresse e-mail",
+    "subscribeButton": "S'abonner maintenant"
   }
 }

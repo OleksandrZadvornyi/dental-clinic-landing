@@ -158,5 +158,14 @@
       "address": "123 Calle Cualquiera, Cualquier Ciudad, NY 39200"
     },
     "copyright": "© 2001-2022, Todos los derechos reservados"
+  },
+  "forms": {
+    "fullNamePlaceholder": "Nombre completo",
+    "phonePlaceholder": "Teléfono",
+    "messagePlaceholder": "Incluir un mensaje...",
+    "appointmentValue": "Confirmar cita",
+    "newsletterNamePlaceholder": "Nombre",
+    "newsletterEmailPlaceholder": "Dirección de correo electrónico",
+    "subscribeButton": "Suscribirse ahora"
   }
 }

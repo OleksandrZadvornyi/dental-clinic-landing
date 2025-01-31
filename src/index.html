@@ -330,7 +330,13 @@
           <form action="">
             <div class="form-name">
               <label for="name" data-i18n="appointmentSection.name">Name</label>
-              <input type="text" id="name" placeholder="Full Name" required />
+              <input
+                type="text"
+                id="name"
+                placeholder="Full Name"
+                data-i18n-placeholder="forms.fullNamePlaceholder"
+                required
+              />
             </div>
 
             <div class="form-phone">
@@ -340,6 +346,7 @@
                 name="phone"
                 id="phone"
                 placeholder="Phone"
+                data-i18n-placeholder="forms.phonePlaceholder"
                 required
               />
             </div>
@@ -366,6 +373,7 @@
                 name="message"
                 id="message"
                 placeholder="Include a message..."
+                data-i18n-placeholder="forms.messagePlaceholder"
               ></textarea>
             </div>
 
@@ -376,7 +384,11 @@
               >
             </div>
 
-            <input type="submit" value="Confirm Appointment" />
+            <input
+              type="submit"
+              value="Confirm Appointment"
+              data-i18n-value="forms.appointmentValue"
+            />
           </form>
         </div>
       </section>
@@ -392,6 +404,7 @@
               name="newsletter-name"
               id="newsletter-name"
               placeholder="First Name"
+              data-i18n-placeholder="forms.newsletterNamePlaceholder"
               required
             />
             <input
@@ -399,9 +412,14 @@
               name="newsletter-email"
               id="newsletter-email"
               placeholder="Email address"
+              data-i18n-placeholder="forms.newsletterEmailPlaceholder"
               required
             />
-            <input type="submit" value="Subscribe Now" />
+            <input
+              type="submit"
+              value="Subscribe Now"
+              data-i18n-value="forms.subscribeButton"
+            />
           </form>
         </div>
       </section>

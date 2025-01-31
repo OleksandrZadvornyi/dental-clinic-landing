@@ -158,5 +158,14 @@
       "address": "123 Anywhere St., Any City, NY 39200"
     },
     "copyright": "© 2001-2022, All Rights Reserved"
+  },
+  "forms": {
+    "fullNamePlaceholder": "Full Name",
+    "phonePlaceholder": "Phone",
+    "messagePlaceholder": "Include a message...",
+    "appointmentValue": "Confirm Appointment",
+    "newsletterNamePlaceholder": "First Name",
+    "newsletterEmailPlaceholder": "Email Address",
+    "subscribeButton": "Subscribe Now"
   }
 }
