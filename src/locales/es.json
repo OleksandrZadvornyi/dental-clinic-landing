@@ -88,7 +88,16 @@
     "title": "Mentes",
     "doctors": {
       "pritisBarua": {
-        "name": "Dr. Pritis Barua"
+        "name": "Dr. Pritis Barua",
+        "specialization": "Cirugía Dental",
+        "education": "Escuela de Medicina de Stanford",
+        "appointmentButton": "Cita"
+      },
+      "lisaChen": {
+        "name": "Dra. Lisa Chen",
+        "specialization": "Periodoncia",
+        "education": "Escuela de Medicina Johns Hopkins",
+        "appointmentButton": "Cita"
       },
       "jeanetteHoff": {
         "name": "Dra. Jeanette Hoff",

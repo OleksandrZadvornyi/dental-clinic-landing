@@ -88,7 +88,16 @@
     "title": "Köpfe",
     "doctors": {
       "pritisBarua": {
-        "name": "Dr. Pritis Barua"
+        "name": "Dr. Pritis Barua",
+        "specialization": "Zahnchirurgie",
+        "education": "Stanford Medical School",
+        "appointmentButton": "Termin vereinbaren"
+      },
+      "lisaChen": {
+        "name": "Dr. Lisa Chen",
+        "specialization": "Parodontologie",
+        "education": "Johns Hopkins Medical School",
+        "appointmentButton": "Termin vereinbaren"
       },
       "jeanetteHoff": {
         "name": "Dr. Jeanette Hoff",

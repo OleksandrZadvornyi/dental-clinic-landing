@@ -88,7 +88,16 @@
     "title": "Cerveaux",
     "doctors": {
       "pritisBarua": {
-        "name": "Dr. Pritis Barua"
+        "name": "Dr. Pritis Barua",
+        "specialization": "Chirurgie Dentaire",
+        "education": "École de Médecine de Stanford",
+        "appointmentButton": "Prendre rendez-vous"
+      },
+      "lisaChen": {
+        "name": "Dr. Lisa Chen",
+        "specialization": "Parodontologie",
+        "education": "École de Médecine Johns Hopkins",
+        "appointmentButton": "Prendre rendez-vous"
       },
       "jeanetteHoff": {
         "name": "Dr. Jeanette Hoff",

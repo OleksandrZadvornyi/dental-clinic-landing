@@ -88,7 +88,16 @@
     "title": "персоналом",
     "doctors": {
       "pritisBarua": {
-        "name": "Др. Прітіс Баруа"
+        "name": "Др. Прітіс Баруа",
+        "specialization": "Хірургічна стоматологія",
+        "education": "Стенфордська медична школа",
+        "appointmentButton": "Запис на прийом"
+      },
+      "lisaChen": {
+        "name": "Др. Ліза Чен",
+        "specialization": "Пародонтологія",
+        "education": "Медична школа Джонса Хопкінса",
+        "appointmentButton": "Запис на прийом"
       },
       "jeanetteHoff": {
         "name": "Др. Жанетт Хофф",

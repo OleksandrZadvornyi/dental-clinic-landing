@@ -88,7 +88,16 @@
     "title": "Brains",
     "doctors": {
       "pritisBarua": {
-        "name": "Dr. Pritis Barua"
+        "name": "Dr. Pritis Barua",
+        "specialization": "Dental Surgery",
+        "education": "Stanford Medical School",
+        "appointmentButton": "Appointment"
+      },
+      "lisaChen": {
+        "name": "Dr. Lisa Chen",
+        "specialization": "Periodontics",
+        "education": "Johns Hopkins Medical School",
+        "appointmentButton": "Appointment"
       },
       "jeanetteHoff": {
         "name": "Dr. Jeanette Hoff",
