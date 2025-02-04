@@ -1,16 +1,16 @@
 <!-- PROJECT SHIELDS -->
 <p align="center">
-  <a href="https://github.com/OleksandrZadvornyi/dental-clinic-landing-page/graphs/contributors"><img src="https://img.shields.io/github/contributors/OleksandrZadvornyi/dental-clinic-landing-page.svg?style=for-the-badge"></a>
-  <a href="https://github.com/OleksandrZadvornyi/dental-clinic-landing-page/network/members"><img src="https://img.shields.io/github/forks/OleksandrZadvornyi/dental-clinic-landing-page.svg?style=for-the-badge"></a>
-  <a href="https://github.com/OleksandrZadvornyi/dental-clinic-landing-page/stargazers"><img src="https://img.shields.io/github/stars/OleksandrZadvornyi/dental-clinic-landing-page.svg?style=for-the-badge"></a>
-  <a href="https://github.com/OleksandrZadvornyi/dental-clinic-landing-page/issues"><img src="https://img.shields.io/github/issues/OleksandrZadvornyi/dental-clinic-landing-page.svg?style=for-the-badge"></a>
-  <a href="https://github.com/OleksandrZadvornyi/dental-clinic-landing-page/blob/master/LICENSE"><img src="https://img.shields.io/github/license/OleksandrZadvornyi/dental-clinic-landing-page.svg?style=for-the-badge"></a>
+  <a href="https://github.com/OleksandrZadvornyi/dental-clinic-landing/graphs/contributors"><img src="https://img.shields.io/github/contributors/OleksandrZadvornyi/dental-clinic-landing.svg?style=for-the-badge"></a>
+  <a href="https://github.com/OleksandrZadvornyi/dental-clinic-landing/network/members"><img src="https://img.shields.io/github/forks/OleksandrZadvornyi/dental-clinic-landing.svg?style=for-the-badge"></a>
+  <a href="https://github.com/OleksandrZadvornyi/dental-clinic-landing/stargazers"><img src="https://img.shields.io/github/stars/OleksandrZadvornyi/dental-clinic-landing.svg?style=for-the-badge"></a>
+  <a href="https://github.com/OleksandrZadvornyi/dental-clinic-landing/issues"><img src="https://img.shields.io/github/issues/OleksandrZadvornyi/dental-clinic-landing.svg?style=for-the-badge"></a>
+  <a href="https://github.com/OleksandrZadvornyi/dental-clinic-landing/blob/master/LICENSE"><img src="https://img.shields.io/github/license/OleksandrZadvornyi/dental-clinic-landing.svg?style=for-the-badge"></a>
 </p>
 
 <!-- PROJECT LOGO -->
 <br />
 <div align="center">
-  <a href="https://github.com/OleksandrZadvornyi/dental-clinic-landing-page">
+  <a href="https://github.com/OleksandrZadvornyi/dental-clinic-landing">
     <img src="./src/images/logo.png" alt="Logo" width="80" height="80">
   </a>
 
@@ -19,14 +19,14 @@
   <p align="center">
     A landing page for a dental clinic.
     <br />
-    <a href="https://github.com/OleksandrZadvornyi/dental-clinic-landing-page"><strong>Explore the docs »</strong></a>
+    <a href="https://github.com/OleksandrZadvornyi/dental-clinic-landing"><strong>Explore the docs »</strong></a>
     <br />
     <br />
-    <a href="https://github.com/OleksandrZadvornyi/dental-clinic-landing-page">View Demo</a>
+    <a href="https://github.com/OleksandrZadvornyi/dental-clinic-landing">View Demo</a>
     ·
-    <a href="https://github.com/OleksandrZadvornyi/dental-clinic-landing-page/issues/new?labels=bug&template=bug-report---.md">Report Bug</a>
+    <a href="https://github.com/OleksandrZadvornyi/dental-clinic-landing/issues/new?labels=bug&template=bug-report---.md">Report Bug</a>
     ·
-    <a href="https://github.com/OleksandrZadvornyi/dental-clinic-landing-page/issues/new?labels=enhancement&template=feature-request---.md">Request Feature</a>
+    <a href="https://github.com/OleksandrZadvornyi/dental-clinic-landing/issues/new?labels=enhancement&template=feature-request---.md">Request Feature</a>
   </p>
 
   <p align="center">
@@ -45,7 +45,7 @@
   <br/><br/>
 </div>
 
-This is a landing page for a dental clinic "Dentics" built using the [template](https://www.figma.com/file/MTWUVMJIGoBjUZKJnfTU33/Landing-Page-for-Dental-Clinic-(Community)?type=design&node-id=0-1&mode=design&t=vSPIbxqZ6YM4ftVu-0) from [Figma](https://www.figma.com/). The topic of the website is dental services.
+This project was created for educational purposes to practice front-end development, responsive design, and localization. The project replicates a professional dental clinic website, incorporating best practices for modern web development. The landing page is built using this [template](https://www.figma.com/file/MTWUVMJIGoBjUZKJnfTU33/Landing-Page-for-Dental-Clinic-(Community)?type=design&node-id=0-1&mode=design&t=vSPIbxqZ6YM4ftVu-0) from [Figma](https://www.figma.com/).
 <br><br>
 
 
@@ -75,7 +75,10 @@ This project is built with the following tools and technologies:
 
 ### Prerequisites
 
-To work with this project, you need to have **Node.js** and **npm** installed on your machine.
+Before starting, make sure you have the following installed:
+
+- **Node.js** (Recommended: Latest LTS version)
+- **npm** (Installed with Node.js)
 <br><br>
 
 
@@ -168,7 +171,7 @@ Distributed under the MIT License. See `LICENSE.txt` for more information.
 
 Oleksandr - [@telegram](https://t.me/oleksandr_zadvornyi) - zadvornyi.alex16@gmail.com
 
-Project Link: [https://github.com/OleksandrZadvornyi/dental-clinic-landing-page](https://github.com/OleksandrZadvornyi/dental-clinic-landing-page)
+Project Link: [https://github.com/OleksandrZadvornyi/dental-clinic-landing](https://github.com/OleksandrZadvornyi/dental-clinic-landing)
 
 
 <!-- MARKDOWN LINKS & IMAGES -->
