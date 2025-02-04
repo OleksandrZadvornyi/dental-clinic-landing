@@ -5,6 +5,7 @@ import { updateContent, updateLanguageButton } from "./i18n/contentUpdater";
 import { initializeTopNav } from "./navigation/topNav";
 import { alignLines } from "./layout/lineAlignment";
 import { initializeDoctorsSlider } from "./carousel/doctorsSlider";
+import { initializeReviewsSlider } from "./carousel/reviewsSlider";
 import { initializeAnimations } from "./animations/intersectionObserver";
 
 // Initialize i18n
@@ -47,8 +48,15 @@ document.addEventListener("DOMContentLoaded", () => {
 // Initialize other features
 initializeTopNav();
 initializeDoctorsSlider();
+initializeReviewsSlider();
 initializeAnimations();
 
 // Set up event listeners
 window.addEventListener("load", alignLines);
 window.addEventListener("resize", alignLines);
+
+if (screen.width < 991) {
+  let review_image = document.getElementById("review-image");
+  let review_title = document.getElementById("review-title");
+  review_title.after(review_image);
+}

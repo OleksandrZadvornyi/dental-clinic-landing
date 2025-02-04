@@ -126,9 +126,13 @@
     }
   },
   "reviewsSection": {
-    "author": "Samantha Payne",
     "title": "What our clients say about us",
-    "review": "I've seen a lot of Dentists over my lifetime because I've had some serious dental issues. But my highest praise goes to Dr. Jonathon Doe and his staff. I was always very anxious going to the dentist but this time at Digital Implant, my experience was so painless and relaxed, there was no discomfort whatsoever."
+    "author_1": "Samantha Payne",
+    "review_1": "I've seen a lot of Dentists over my lifetime because I've had some serious dental issues. But my highest praise goes to Dr. Jonathon Doe and his staff. I was always very anxious going to the dentist but this time at Digital Implant, my experience was so painless and relaxed, there was no discomfort whatsoever.",
+    "author_2": "Michael Rodriguez",
+    "review_2": "The team at Digital Implant is exceptional! Dr. Doe's expertise in dental implants is remarkable. The whole process was smooth, and the results exceeded my expectations. Their modern approach to dentistry really makes a difference.",
+    "author_3": "David Graham",
+    "review_3": "I couldn't be happier with my experience at Digital Implant. The staff is incredibly professional and caring. They took the time to explain every step of my treatment, and the follow-up care has been outstanding. Highly recommend!"
   },
   "appointmentSection": {
     "heading": "Consult with our",

@@ -279,15 +279,16 @@
       </section>
 
       <section class="reviews-section hidden">
-        <div class="review-image">
+        <div class="review-image" id="review-image">
           <div class="yellow-rect"></div>
 
           <div class="review-img">
             <img
-              src="./images/review-image.png"
+              src="./images/review-image-1.png"
               alt="girl with pink hair and glasses"
+              class="review-photo"
             />
-            <h3 data-i18n="reviewsSection.author">Samantha Payne</h3>
+            <h3 class="review-author" data-i18n="reviewsSection.author_1">Samantha Payne</h3>
             <div class="stars">
               <img src="images/star.svg" alt="yellow star" />
               <img src="images/star.svg" alt="yellow star" />
@@ -300,33 +301,16 @@
 
         <div class="review-text">
           <hr />
-          <h2 data-i18n="reviewsSection.title">What our clients say about us</h2>
+          <h2 data-i18n="reviewsSection.title" id="review-title">What our clients say about us</h2>
           <img src="./images/quote.svg" alt="quotation mark" />
-          <p data-i18n="reviewsSection.review">
+          <p class="review-content" data-i18n="reviewsSection.review_1">
             I've seen a lot of Dentists over my lifetime because I've had some
             serious dental issues. But my highest praise goes to Dr. Jonathon
             Doe and his staff. I was always very anxious going to the dentist
             but this time at Digital Implant, my experience was so painless and
             relaxed, there was no discomfort whatsoever.
           </p>
-          <div class="review-image-inside">
-            <div class="yellow-rect-inside"></div>
-
-            <div class="review-img-inside">
-              <img
-                src="./images/review-image.png"
-                alt="girl with pink hair and glasses"
-              />
-              <h3 data-i18n="reviewsSection.author">Samantha Payne</h3>
-              <div class="stars">
-                <img src="images/star.svg" alt="yellow star" />
-                <img src="images/star.svg" alt="yellow star" />
-                <img src="images/star.svg" alt="yellow star" />
-                <img src="images/star.svg" alt="yellow star" />
-                <img src="images/star.svg" alt="yellow star" />
-              </div>
-            </div>
-          </div>
+          
           <div class="review-buttons">
             <input type="radio" name="review" id="review1" checked />
             <input type="radio" name="review" id="review2" />
