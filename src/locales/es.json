@@ -87,41 +87,36 @@
     "subheading": "NUESTROS <span>MÉDICOS</span>",
     "title": "Mentes",
     "doctors": {
+      "appointmentButton": "Cita",
       "pritisBarua": {
         "name": "Dr. Pritis Barua",
         "specialization": "Cirugía Dental",
-        "education": "Escuela de Medicina de Stanford",
-        "appointmentButton": "Cita"
+        "education": "Escuela de Medicina de Stanford"
       },
       "lisaChen": {
         "name": "Dra. Lisa Chen",
         "specialization": "Periodoncia",
-        "education": "Escuela de Medicina Johns Hopkins",
-        "appointmentButton": "Cita"
+        "education": "Escuela de Medicina Johns Hopkins"
       },
       "jeanetteHoff": {
         "name": "Dra. Jeanette Hoff",
         "specialization": "Tratamiento de Ortodoncia",
-        "education": "Escuela de Medicina de Yale",
-        "appointmentButton": "Cita"
+        "education": "Escuela de Medicina de Yale"
       },
       "davidAmbrose": {
         "name": "Dr. David Ambrose",
         "specialization": "Tratamiento de Ortodoncia",
-        "education": "Escuela de Medicina de Harvard",
-        "appointmentButton": "Cita"
+        "education": "Escuela de Medicina de Harvard"
       },
       "jeneliaBreton": {
         "name": "Dra. Jenelia Breton",
         "specialization": "Tratamiento de Ortodoncia",
-        "education": "Escuela de Medicina de Oxford",
-        "appointmentButton": "Cita"
+        "education": "Escuela de Medicina de Oxford"
       },
       "jagajeetAurora": {
         "name": "Dr. Jagajeet Aurora",
         "specialization": "Tratamiento de Ortodoncia",
-        "education": "Escuela de Medicina de Harvard",
-        "appointmentButton": "Cita"
+        "education": "Escuela de Medicina de Harvard"
       }
     }
   },

@@ -87,41 +87,36 @@
     "subheading": "UNSERE <span>ÄRZTE</span>",
     "title": "Köpfe",
     "doctors": {
+      "appointmentButton": "Termin",
       "pritisBarua": {
         "name": "Dr. Pritis Barua",
         "specialization": "Zahnchirurgie",
-        "education": "Stanford Medical School",
-        "appointmentButton": "Termin vereinbaren"
+        "education": "Stanford Medical School"
       },
       "lisaChen": {
         "name": "Dr. Lisa Chen",
         "specialization": "Parodontologie",
-        "education": "Johns Hopkins Medical School",
-        "appointmentButton": "Termin vereinbaren"
+        "education": "Johns Hopkins Medical School"
       },
       "jeanetteHoff": {
         "name": "Dr. Jeanette Hoff",
         "specialization": "Orthodontische Behandlung",
-        "education": "Yale Medical School",
-        "appointmentButton": "Termin"
+        "education": "Yale Medical School"
       },
       "davidAmbrose": {
         "name": "Dr. David Ambrose",
         "specialization": "Orthodontische Behandlung",
-        "education": "Harvard Medical School",
-        "appointmentButton": "Termin"
+        "education": "Harvard Medical School"
       },
       "jeneliaBreton": {
         "name": "Dr. Jenelia Breton",
         "specialization": "Orthodontische Behandlung",
-        "education": "Oxford Medical School",
-        "appointmentButton": "Termin"
+        "education": "Oxford Medical School"
       },
       "jagajeetAurora": {
         "name": "Dr. Jagajeet Aurora",
         "specialization": "Orthodontische Behandlung",
-        "education": "Harvard Medical School",
-        "appointmentButton": "Termin"
+        "education": "Harvard Medical School"
       }
     }
   },

@@ -87,41 +87,36 @@
     "subheading": "MEET OUR <span>DOCTORS</span>",
     "title": "Brains",
     "doctors": {
+      "appointmentButton": "Appointment",
       "pritisBarua": {
         "name": "Dr. Pritis Barua",
         "specialization": "Dental Surgery",
-        "education": "Stanford Medical School",
-        "appointmentButton": "Appointment"
+        "education": "Stanford Medical School"
       },
       "lisaChen": {
         "name": "Dr. Lisa Chen",
         "specialization": "Periodontics",
-        "education": "Johns Hopkins Medical School",
-        "appointmentButton": "Appointment"
+        "education": "Johns Hopkins Medical School"
       },
       "jeanetteHoff": {
         "name": "Dr. Jeanette Hoff",
         "specialization": "Orthodontic Treatment",
-        "education": "Yale Medical School",
-        "appointmentButton": "Appointment"
+        "education": "Yale Medical School"
       },
       "davidAmbrose": {
         "name": "Dr. David Ambrose",
         "specialization": "Orthodontic Treatment",
-        "education": "Harvard Medical School",
-        "appointmentButton": "Appointment"
+        "education": "Harvard Medical School"
       },
       "jeneliaBreton": {
         "name": "Dr. Jenelia Breton",
         "specialization": "Orthodontic Treatment",
-        "education": "Oxford Medical School",
-        "appointmentButton": "Appointment"
+        "education": "Oxford Medical School"
       },
       "jagajeetAurora": {
         "name": "Dr. Jagajeet Aurora",
         "specialization": "Orthodontic Treatment",
-        "education": "Harvard Medical School",
-        "appointmentButton": "Appointment"
+        "education": "Harvard Medical School"
       }
     }
   },

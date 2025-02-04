@@ -87,41 +87,36 @@
     "subheading": "НАШІ <span>ЛІКАРІ</span>",
     "title": "персоналом",
     "doctors": {
+      "appointmentButton": "Запис",
       "pritisBarua": {
         "name": "Др. Прітіс Баруа",
         "specialization": "Хірургічна стоматологія",
-        "education": "Стенфордська медична школа",
-        "appointmentButton": "Запис на прийом"
+        "education": "Стенфордська медична школа"
       },
       "lisaChen": {
         "name": "Др. Ліза Чен",
         "specialization": "Пародонтологія",
-        "education": "Медична школа Джонса Хопкінса",
-        "appointmentButton": "Запис на прийом"
+        "education": "Медична школа Джонса Хопкінса"
       },
       "jeanetteHoff": {
         "name": "Др. Жанетт Хофф",
         "specialization": "Ортодонтичне лікування",
-        "education": "Медична школа Єльського університету",
-        "appointmentButton": "Запис"
+        "education": "Медична школа Єльського університету"
       },
       "davidAmbrose": {
         "name": "Др. Девід Амброуз",
         "specialization": "Ортодонтичне лікування",
-        "education": "Медична школа Гарвардського університету",
-        "appointmentButton": "Запис"
+        "education": "Медична школа Гарвардського університету"
       },
       "jeneliaBreton": {
         "name": "Др. Дженілія Бретон",
         "specialization": "Ортодонтичне лікування",
-        "education": "Медична школа Оксфордського університету",
-        "appointmentButton": "Запис"
+        "education": "Медична школа Оксфордського університету"
       },
       "jagajeetAurora": {
         "name": "Др. Джагаджіт Аврора",
         "specialization": "Ортодонтичне лікування",
-        "education": "Медична школа Гарвардського університету",
-        "appointmentButton": "Запис"
+        "education": "Медична школа Гарвардського університету"
       }
     }
   },
