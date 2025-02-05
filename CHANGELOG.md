@@ -4,6 +4,7 @@
 ### Bug Fixes
 
 * **i18n:** add missing import in `script.js` ([4c7ad3e](https://github.com/OleksandrZadvornyi/dental-clinic-landing-page/commit/4c7ad3e25a6e5a55e6b5f9c79548fa3e067eb949))
+* **i18n:** update translations ([6506e00](https://github.com/OleksandrZadvornyi/dental-clinic-landing-page/commit/6506e000e19250de063e88659443e51b407b26ab))
 
 
 ### Features
