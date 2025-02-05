@@ -32,10 +32,15 @@ jobs:
         run: |
           standard-version --skip.tag
 
-      - name: Create Git tag
+      - name: Get version
+        id: get_version
         run: |
           VERSION=$(node -p "require('./package.json').version")
-          git tag v$VERSION
+          echo "version=$VERSION" >> $GITHUB_OUTPUT
+
+      - name: Create Git tag
+        run: |
+          git tag v${{ steps.get_version.outputs.version }}
 
       - name: Push changes
         uses: ad-m/github-push-action@master
@@ -43,3 +48,14 @@ jobs:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           branch: ${{ github.ref }}
           tags: true
+
+      - name: Create GitHub Release
+        uses: softprops/action-gh-release@v1
+        with:
+          tag_name: v${{ steps.get_version.outputs.version }}
+          name: Release v${{ steps.get_version.outputs.version }}
+          body_path: CHANGELOG.md
+          draft: false
+          prerelease: false
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
