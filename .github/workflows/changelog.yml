@@ -1,12 +1,12 @@
-name: Generate CHANGELOG
+name: Version and Changelog
 on:
   push:
     branches: [ master ]
   workflow_dispatch:
 
 jobs:
-  changelog:
-    name: Generate CHANGELOG
+  version:
+    name: Version and Changelog
     runs-on: ubuntu-latest
     steps:
       - name: Checkout repository
@@ -19,23 +19,27 @@ jobs:
         with:
           node-version: 'lts/*'
 
-      - name: Install conventional-changelog-cli
-        run: npm install -g conventional-changelog-cli
-
-      - name: Generate CHANGELOG
+      - name: Install dependencies
         run: |
-          # Generate CHANGELOG.md
-          conventional-changelog -p angular -i CHANGELOG.md -s -r 0
+          npm install -g standard-version
 
-      - name: Commit CHANGELOG
+      - name: Configure Git
         run: |
           git config --local user.email "github-actions[bot]@users.noreply.github.com"
           git config --local user.name "github-actions[bot]"
-          git add CHANGELOG.md
-          git diff --quiet && git diff --staged --quiet || git commit -m "docs: update CHANGELOG.md [skip ci]"
+
+      - name: Bump version and generate changelog
+        run: |
+          standard-version --skip.tag
+
+      - name: Create Git tag
+        run: |
+          VERSION=$(node -p "require('./package.json').version")
+          git tag v$VERSION
 
       - name: Push changes
         uses: ad-m/github-push-action@master
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           branch: ${{ github.ref }}
+          tags: true
