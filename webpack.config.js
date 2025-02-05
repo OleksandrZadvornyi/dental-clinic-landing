@@ -31,7 +31,7 @@ module.exports = {
       template: "./src/index.html", // Use the index.html from src directory
     }),
     new MiniCssExtractPlugin({
-      filename: "css/style.css", // Output CSS file
+      filename: "styles/main.css", // Output CSS file
     }),
     new CopyWebpackPlugin({
       patterns: [
@@ -44,7 +44,7 @@ module.exports = {
   ],
   mode: "production",
   devServer: {
-    static: path.resolve(__dirname, "src"), // Serve files from dist directory
+    static: path.resolve(__dirname, "src"),
     open: true, // Automatically open the browser
   },
 };

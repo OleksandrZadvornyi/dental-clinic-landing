@@ -1,4 +1,4 @@
-import "../css/style.css";
+import "../styles/main.css";
 import i18next from "i18next";
 import { initializeI18n } from "./i18n/i18nConfig";
 import { updateContent, updateLanguageButton } from "./i18n/contentUpdater";
