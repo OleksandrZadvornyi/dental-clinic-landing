@@ -8,7 +8,8 @@
     "build": "webpack --mode production",
     "dev": "webpack --mode development",
     "start": "webpack serve",
-    "format": "prettier --write \"**/*.{js,json,css,html}\""
+    "format": "prettier --write \"**/*.{js,json,css,html}\"",
+    "format:check": "prettier --check \"**/*.{js,json,css,html}\""
   },
   "repository": {
     "type": "git",
