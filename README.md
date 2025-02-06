@@ -142,6 +142,19 @@ npm run start
 ```
 
 After running the command, the website will open in your default browser.
+<br>
+
+
+### Deploying with Netlify
+
+To deploy this project using **Netlify**, follow these steps:
+
+1. Create a [Netlify](https://www.netlify.com/) account if you don’t have one.
+2. Click **"New site from Git"** and connect your repository.
+3. In **"Build & deploy settings"**, set:
+   - **Build command**: `npm run build`
+   - **Publish directory**: `dist`
+4. Click **"Deploy"** and wait for Netlify to build and publish your site.
 <br><br>
 
 
