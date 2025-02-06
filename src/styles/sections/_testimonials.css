@@ -98,7 +98,7 @@
 }
 
 /* Hide the default radio button */
-.review-buttons input[type="radio"] {
+.review-buttons input[type='radio'] {
   appearance: none;
   -webkit-appearance: none;
   -moz-appearance: none;
@@ -113,8 +113,8 @@
 }
 
 /* Create custom radio button design */
-.review-buttons input[type="radio"]::before {
-  content: "";
+.review-buttons input[type='radio']::before {
+  content: '';
   position: absolute;
   top: 50%;
   left: 50%;
@@ -122,31 +122,33 @@
   width: 8px;
   height: 8px;
   border-radius: 50%;
-  background-color: var(--clr-secondary);  /* Changed to yellow */
+  background-color: var(--clr-secondary); /* Changed to yellow */
   opacity: 0;
   transition: opacity 0.2s ease;
 }
 
 /* Hover state */
-.review-buttons input[type="radio"]:hover {
+.review-buttons input[type='radio']:hover {
   border-color: var(--clr-secondary);
 }
 
 /* Checked state */
-.review-buttons input[type="radio"]:checked {
+.review-buttons input[type='radio']:checked {
   border-color: var(--clr-secondary);
 }
 
-.review-buttons input[type="radio"]:checked::before {
+.review-buttons input[type='radio']:checked::before {
   opacity: 1;
 }
 
 /* Focus state for accessibility */
-.review-buttons input[type="radio"]:focus {
+.review-buttons input[type='radio']:focus {
   outline-offset: 2px;
 }
 
-.review-photo, .review-author, .review-content {
+.review-photo,
+.review-author,
+.review-content {
   transition: opacity 0.3s ease-in-out;
 }
 

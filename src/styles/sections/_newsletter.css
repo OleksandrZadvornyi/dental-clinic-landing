@@ -51,7 +51,7 @@
   padding: 16px 20px;
 }
 
-.newsletter-wrapper form input[type="submit"] {
+.newsletter-wrapper form input[type='submit'] {
   background-color: var(--clr-white-primary);
   color: var(--clr-black-primary);
   padding: 1.6rem 6.5vw;

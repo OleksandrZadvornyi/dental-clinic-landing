@@ -1,5 +1,5 @@
 header > nav {
-  font-family: "Inter", sans-serif;
+  font-family: 'Inter', sans-serif;
   font-weight: var(--fw-regular);
 
   position: relative;
@@ -24,7 +24,7 @@ nav > div.logo {
 
 nav > div.logo > h2 {
   color: var(--clr-black-primary);
-  font-family: "Ubuntu", sans-serif;
+  font-family: 'Ubuntu', sans-serif;
   font-size: clamp(3rem, 3vw, 4.2rem);
   font-weight: var(--fw-medium);
 }

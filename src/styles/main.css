@@ -1,21 +1,21 @@
 /* Base */
-@import "./base/_base.css";
+@import './base/_base.css';
 
 /* Layout */
-@import "./layout/_header.css";
-@import "./layout/_footer.css";
+@import './layout/_header.css';
+@import './layout/_footer.css';
 
 /* sections */
-@import "./sections/_hero.css";
-@import "./sections/_services.css";
-@import "./sections/_features.css";
-@import "./sections/_about.css";
-@import "./sections/_doctors.css";
-@import "./sections/_testimonials.css";
-@import "./sections/_appointment.css";
-@import "./sections/_newsletter.css";
-@import "./sections/_treatments.css";
-@import "./sections/_invitation.css";
+@import './sections/_hero.css';
+@import './sections/_services.css';
+@import './sections/_features.css';
+@import './sections/_about.css';
+@import './sections/_doctors.css';
+@import './sections/_testimonials.css';
+@import './sections/_appointment.css';
+@import './sections/_newsletter.css';
+@import './sections/_treatments.css';
+@import './sections/_invitation.css';
 
 /* Utilities */
-@import "./utilities/_animations.css";
+@import './utilities/_animations.css';

@@ -87,7 +87,7 @@
 }
 
 .always-laugh-section .right-part li::before {
-  content: url("../../images/shield.svg");
+  content: url('../../images/shield.svg');
   display: inline-block;
   vertical-align: middle;
   margin-right: 1.5rem;

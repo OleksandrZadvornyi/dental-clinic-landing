@@ -12,8 +12,8 @@
   --clr-gray-tone: hsla(0, 0%, 74%, 1);
   --clr-white-primary: hsla(0, 0%, 100%, 1);
 
-  --ff-base: "Inter", sans-serif;
-  --ff-secondary: "Ubuntu", sans-serif;
+  --ff-base: 'Inter', sans-serif;
+  --ff-secondary: 'Ubuntu', sans-serif;
 
   --fw-regular: 400;
   --fw-medium: 500;
