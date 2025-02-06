@@ -104,13 +104,22 @@ npm install
 <br>
 
 
-### Code Formatting
+### Code Formatting & CI Checks
 
-This project uses Prettier for consistent code formatting. To format the code:
+This project uses Prettier to maintain consistent code formatting. You can format all files in the project by running:
 
 ```bash
 npm run format
 ```
+
+To check for formatting issues without making changes, run:
+
+```bash
+npm run format:check
+```
+
+Additionally, a **GitHub Actions** workflow is set up to verify code formatting on every pull request. If formatting issues are detected, the CI will fail, prompting you to format the code before merging.
+
 <br>
 
 
