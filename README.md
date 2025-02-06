@@ -64,6 +64,7 @@ This project is built with the following tools and technologies:
 * [![JS][JS]][JS-url]
 * [![WEBPACK][WEBPACK]][WEBPACK-url]
 * [![I18NEXT][I18NEXT]][I18NEXT-url]
+* [![PRETTIER][PRETTIER]][PRETTIER-url]
 
 <br>
 
@@ -99,6 +100,16 @@ Navigate into the project directory and install the required npm packages:
 ```bash
 cd dental-clinic-landing
 npm install
+```
+<br>
+
+
+### Code Formatting
+
+This project uses Prettier for consistent code formatting. To format the code:
+
+```bash
+npm run format
 ```
 <br>
 
@@ -186,3 +197,5 @@ Project Link: [https://github.com/OleksandrZadvornyi/dental-clinic-landing](http
 [WEBPACK-url]: https://webpack.js.org/
 [I18NEXT]: https://img.shields.io/badge/i18next-009688?style=for-the-badge&logo=i18next&logoColor=white
 [I18NEXT-url]: https://www.i18next.com/
+[PRETTIER]: https://img.shields.io/badge/prettier-1A2C34?style=for-the-badge&logo=prettier&logoColor=F7BA3E
+[PRETTIER-url]: https://prettier.io/
