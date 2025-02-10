@@ -1,6 +1,6 @@
 {
   "name": "dental-clinic-landing",
-  "version": "1.4.4",
+  "version": "1.4.5",
   "description": "A landing page for a dental clinic with multilingual support and dynamic features",
   "main": "src/js/script.js",
   "scripts": {
