@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [1.4.8](https://github.com/OleksandrZadvornyi/dental-clinic-landing-page/compare/v1.4.7...v1.4.8) (2025-02-11)
+
+
+### 👷 CI/CD
+
+* escape quote in changelog awk command ([c36c419](https://github.com/OleksandrZadvornyi/dental-clinic-landing-page/commit/c36c419cc4cb45b73c56b00be2b091256681fa69))
+
 ### [1.4.7](https://github.com/OleksandrZadvornyi/dental-clinic-landing-page/compare/v1.4.6...v1.4.7) (2025-02-11)
 
 
