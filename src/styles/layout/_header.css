@@ -67,10 +67,9 @@ header > nav > button:hover {
   color: var(--clr-primary);
 }
 
-.icon {
+.icon img {
   display: none;
-  font-size: 2.5rem;
-  color: var(--clr-black-secondary);
+  height: 36px;
 }
 
 .responsive-nav {
@@ -143,7 +142,7 @@ header > nav > button:hover {
     display: none;
   }
 
-  .icon {
+  .icon img {
     display: block;
   }
 }
