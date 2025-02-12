@@ -60,6 +60,11 @@
   transform: scale(1.05);
 }
 
+.history-content img {
+  width: 100%;
+  height: auto;
+}
+
 .history-text {
   border-radius: 1.6rem;
   border: 0.1rem solid rgba(82, 82, 91, 0.1);

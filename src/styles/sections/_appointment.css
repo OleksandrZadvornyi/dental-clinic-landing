@@ -62,6 +62,11 @@
   transform: scale(1.05);
 }
 
+.appointment-content img {
+  width: 100%;
+  height: auto;
+}
+
 .appointment-content > form {
   display: grid;
   grid-template-columns: 1fr 1fr;

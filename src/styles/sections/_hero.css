@@ -17,6 +17,7 @@
 
 .top-info-section img {
   width: 100%;
+  height: auto;
 }
 
 .top-info-section picture:hover {

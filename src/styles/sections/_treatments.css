@@ -46,6 +46,11 @@
   transition: all 0.5s;
 }
 
+.left-part picture img {
+  width: 100%;
+  height: auto;
+}
+
 .left-part picture:hover {
   transform: scale(1.05);
 }
