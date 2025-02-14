@@ -52,14 +52,19 @@
   padding: 8.8rem 0 12rem;
 }
 
-.appointment-content img {
+.appointment-content picture {
   flex-shrink: 2;
   max-width: 45%;
   transition: all 0.5s;
 }
 
-.appointment-content img:hover {
+.appointment-content picture:hover {
   transform: scale(1.05);
+}
+
+.appointment-content img {
+  width: 100%;
+  height: auto;
 }
 
 .appointment-content > form {

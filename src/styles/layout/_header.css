@@ -22,6 +22,11 @@ nav > div.logo {
   cursor: pointer;
 }
 
+nav > div.logo > img {
+  width: 48px;
+  height: auto;
+}
+
 nav > div.logo > h2 {
   color: var(--clr-black-primary);
   font-family: 'Ubuntu', sans-serif;
@@ -47,7 +52,7 @@ header > nav > ul > a {
   white-space: nowrap;
 }
 
-header > nav > button {
+header > nav > button:not(:first-of-type) {
   background-color: var(--clr-primary);
   color: var(--clr-white-primary);
   border: none;
@@ -67,10 +72,17 @@ header > nav > button:hover {
   color: var(--clr-primary);
 }
 
-.icon {
+button.icon {
   display: none;
-  font-size: 2.5rem;
-  color: var(--clr-black-secondary);
+  width: 36px;
+  height: auto;
+  border: none;
+  background-color: transparent;
+}
+
+button.icon > img {
+  width: 100%;
+  height: auto;
 }
 
 .responsive-nav {
@@ -143,7 +155,7 @@ header > nav > button:hover {
     display: none;
   }
 
-  .icon {
+  button.icon {
     display: block;
   }
 }

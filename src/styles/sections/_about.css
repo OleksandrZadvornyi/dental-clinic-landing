@@ -51,13 +51,18 @@
   align-items: center;
 }
 
-.history-content img {
+.history-content picture {
   max-width: 45%;
   transition: all 0.5s;
 }
 
-.history-content img:hover {
+.history-content picture:hover {
   transform: scale(1.05);
+}
+
+.history-content img {
+  width: 100%;
+  height: auto;
 }
 
 .history-text {

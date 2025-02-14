@@ -8,12 +8,19 @@
   gap: 3vw;
 }
 
-.top-info-section img {
+.top-info-section picture {
   width: clamp(40rem, 40vw, 60rem);
+  min-width: 40rem;
   transition: transform 0.5s;
+  flex-shrink: 0.2;
 }
 
-.top-info-section img:hover {
+.top-info-section img {
+  width: 100%;
+  height: auto;
+}
+
+.top-info-section picture:hover {
   transform: scale(1.05);
 }
 
@@ -94,8 +101,9 @@
     margin-top: 3.4rem;
   }
 
-  .top-info-section img {
+  .top-info-section picture {
     width: 80%;
     margin-top: 2.4rem;
+    min-width: auto;
   }
 }

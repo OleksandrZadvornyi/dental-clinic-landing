@@ -5,18 +5,24 @@ export function initializeReviewsSlider() {
     {
       author: 'Samantha Payne',
       image: './images/review-image-1.png',
+      image_source_1: './images/review-image-1.avif',
+      image_source_2: './images/review-image-1.webp',
       content:
         "I've seen a lot of Dentists over my lifetime because I've had some serious dental issues. But my highest praise goes to Dr. Jonathon Doe and his staff. I was always very anxious going to the dentist but this time at Digital Implant, my experience was so painless and relaxed, there was no discomfort whatsoever.",
     },
     {
       author: 'Michael Rodriguez',
       image: './images/review-image-2.jpg',
+      image_source_1: './images/review-image-2.avif',
+      image_source_2: './images/review-image-2.webp',
       content:
         "The team at Digital Implant is exceptional! Dr. Doe's expertise in dental implants is remarkable. The whole process was smooth, and the results exceeded my expectations. Their modern approach to dentistry really makes a difference.",
     },
     {
       author: 'David Graham',
       image: './images/review-image-3.jpg',
+      image_source_1: './images/review-image-3.avif',
+      image_source_2: './images/review-image-3.webp',
       content:
         "I couldn't be happier with my experience at Digital Implant. The staff is incredibly professional and caring. They took the time to explain every step of my treatment, and the follow-up care has been outstanding. Highly recommend!",
     },
@@ -25,6 +31,8 @@ export function initializeReviewsSlider() {
   // Get all necessary elements
   const radioButtons = document.querySelectorAll('input[type="radio"]');
   const reviewPhoto = document.querySelector('.review-photo');
+  const reviewSource1 = document.querySelector('.review-source-1');
+  const reviewSource2 = document.querySelector('.review-source-2');
   const reviewAuthor = document.querySelector('.review-author');
   const reviewContent = document.querySelector('.review-content');
 
@@ -47,6 +55,8 @@ export function initializeReviewsSlider() {
     // Update content after brief delay for animation
     setTimeout(() => {
       reviewPhoto.src = review.image;
+      reviewSource1.srcset = review.image_source_1;
+      reviewSource2.srcset = review.image_source_2;
       reviewAuthor.textContent = review.author;
       reviewAuthor.setAttribute(
         'data-i18n',

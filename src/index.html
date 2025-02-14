@@ -2,18 +2,44 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <link rel="shortcut icon" href="./images/favicon.png" type="image/x-icon" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Dentics - A leading dental care center in New York providing high-quality dental services since 1990. Specializing in laser technology, painless injections, dental implants, orthodontics, and cosmetic dentistry."
+    />
+    <meta
+      name="keywords"
+      content="dental care, dentist, New York dentist, dental implants, orthodontics, cosmetic dentistry, laser dentistry, painless dentistry, dental clinic"
+    />
+    <meta name="author" content="Dentics" />
+    <meta
+      property="og:title"
+      content="Dentics - Premium Dental Care in New York"
+    />
+    <meta
+      property="og:description"
+      content="Leading dental care center providing high-quality dental services with advanced technology and experienced professionals since 1990."
+    />
+    <meta property="og:type" content="website" />
+    <meta name="theme-color" content="#ffffff" />
+    <meta name="robots" content="index, follow" />
+    <meta name="language" content="en" />
+    <meta name="revisit-after" content="7 days" />
+    <link rel="shortcut icon" href="./images/favicon.png" type="image/x-icon" />
+
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
+      rel="preload"
       href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Ubuntu:wght@500&display=swap"
-      rel="stylesheet"
+      as="style"
+      onload="this.onload=null;this.rel='stylesheet'"
     />
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
-    />
+    <noscript
+      ><link
+        rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Ubuntu:wght@500&display=swap"
+    /></noscript>
     <link rel="stylesheet" href="./styles/main.css" />
     <title>Dentics</title>
   </head>
@@ -22,7 +48,12 @@
     <header>
       <nav>
         <div class="logo">
-          <img src="./images/logo.png" alt="dentics logo" />
+          <img
+            src="./images/logo.png"
+            alt="dentics logo"
+            width="48"
+            height="48"
+          />
           <h2 id="header.title">Dentics</h2>
         </div>
         <ul id="top-nav-list" class="top-nav">
@@ -31,9 +62,15 @@
           <a href="#" data-i18n="header.nav.aboutUs">About us</a>
           <a href="#" data-i18n="header.nav.register">Register</a>
         </ul>
-        <a href="javascript:void(0);" class="icon" id="top-nav-icon">
-          <i class="fa fa-bars"></i>
-        </a>
+        <button type="button" class="icon" id="top-nav-icon">
+          <img
+            src="./images/menu.png"
+            alt="Top navigation icon"
+            width="36"
+            height="36"
+          />
+        </button>
+
         <button data-i18n="header.appointmentButton">Appointment</button>
         <div class="language-switcher">
           <button id="language-button" class="lang-btn">EN</button>
@@ -67,7 +104,16 @@
             </button>
           </div>
         </div>
-        <img src="./images/illustration.png" alt="dentist" />
+        <picture>
+          <source srcset="./images/illustration.avif" type="image/avif" />
+          <source srcset="./images/illustration.webp" type="image/webp" />
+          <img
+            src="./images/illustration.png"
+            alt="dentist"
+            width="600"
+            height="500"
+          />
+        </picture>
       </section>
 
       <section class="get-service-section hidden">
@@ -79,17 +125,29 @@
         </div>
         <div class="steps-wrapper">
           <div>
-            <img src="./images/call.svg" alt="telephone handset" />
+            <img
+              src="./images/call.svg"
+              alt="telephone handset"
+              width="48"
+              height="48"
+            />
             <p data-i18n="getServiceSection.steps.call">Call for appointment</p>
           </div>
           <div>
-            <img src="./images/date.svg" alt="calendar" />
+            <img
+              src="./images/date.svg"
+              alt="calendar"
+              width="48"
+              height="48"
+            />
             <p data-i18n="getServiceSection.steps.date">Get a Date & Serial</p>
           </div>
           <div>
             <img
               src="./images/doctor-consult.svg"
               alt="plus sign in a square"
+              width="48"
+              height="48"
             />
             <p data-i18n="getServiceSection.steps.consult">
               Consult Your dentist
@@ -104,7 +162,16 @@
             Always <span>Laugh</span> Whenever It's Possible
           </h2>
           <hr />
-          <img src="./images/always-laugh.png" alt="speaking dentist" />
+          <picture>
+            <source srcset="./images/always-laugh.avif" type="image/avif" />
+            <source srcset="./images/always-laugh.webp" type="image/webp" />
+            <img
+              src="./images/always-laugh.png"
+              alt="A talking dentist"
+              width="992"
+              height="656"
+            />
+          </picture>
         </div>
 
         <div class="right-part">
@@ -156,7 +223,12 @@
 
         <div class="features-grid">
           <div>
-            <img src="./images/laser-technology.svg" alt="laser technology" />
+            <img
+              src="./images/laser-technology.svg"
+              alt="laser technology"
+              width="96"
+              height="96"
+            />
             <h3 data-i18n="keyFeaturesSection.features.laserTechnology.title">
               Laser Technology
             </h3>
@@ -171,6 +243,8 @@
             <img
               src="./images/painless-injection.svg"
               alt="painless injection"
+              width="96"
+              height="96"
             />
             <h3 data-i18n="keyFeaturesSection.features.painlessInjection.title">
               Painless Injection
@@ -183,7 +257,12 @@
             </p>
           </div>
           <div>
-            <img src="./images/dental-implant.svg" alt="dental implant" />
+            <img
+              src="./images/dental-implant.svg"
+              alt="dental implant"
+              width="96"
+              height="96"
+            />
             <h3 data-i18n="keyFeaturesSection.features.dentalImplants.title">
               Dental Implant
             </h3>
@@ -195,7 +274,12 @@
             </p>
           </div>
           <div>
-            <img src="./images/3d-dental-scanner.svg" alt="3d dental scanner" />
+            <img
+              src="./images/3d-dental-scanner.svg"
+              alt="3d dental scanner"
+              width="96"
+              height="96"
+            />
             <h3 data-i18n="keyFeaturesSection.features.3dDentalScanner.title">
               3D Dental Scanner
             </h3>
@@ -210,6 +294,8 @@
             <img
               src="./images/digital-smile-design.svg"
               alt="digital smile design"
+              width="96"
+              height="96"
             />
             <h3
               data-i18n="keyFeaturesSection.features.digitalSmileDesign.title"
@@ -224,7 +310,12 @@
             </p>
           </div>
           <div>
-            <img src="./images/crown-and-bridge.svg" alt="crown and bridge" />
+            <img
+              src="./images/crown-and-bridge.svg"
+              alt="crown and bridge"
+              width="96"
+              height="96"
+            />
             <h3 data-i18n="keyFeaturesSection.features.crownAndBridge.title">
               Crown and Bridge
             </h3>
@@ -264,7 +355,17 @@
         </div>
 
         <div class="history-content">
-          <img src="./images/history.png" alt="a dentist with a client" />
+          <picture>
+            <source srcset="./images/history.avif" type="image/avif" />
+            <source srcset="./images/history.webp" type="image/webp" />
+            <img
+              src="./images/history.png"
+              alt="A dentist with a client"
+              width="534"
+              height="364"
+            />
+          </picture>
+
           <div class="history-text">
             <h3 data-i18n="historySection.title">Our history</h3>
             <p data-i18n="historySection.description">
@@ -294,7 +395,12 @@
           <div class="doctors-carousel">
             <div class="slides-wrapper">
               <div class="doctor-info">
-                <img src="./images/dr-hoff.png" alt="Dr. Jeanette Hoff" />
+                <img
+                  src="./images/dr-hoff.png"
+                  alt="Dr. Jeanette Hoff"
+                  width="216"
+                  height="216"
+                />
                 <h3 data-i18n="ourDoctorsSection.doctors.jeanetteHoff.name">
                   Dr. Jeanette Hoff
                 </h3>
@@ -312,7 +418,16 @@
               </div>
 
               <div class="doctor-info">
-                <img src="./images/dr-ambrose.png" alt="Dr. David Ambrose" />
+                <picture>
+                  <source srcset="./images/dr-ambrose.avif" type="image/avif" />
+                  <source srcset="./images/dr-ambrose.webp" type="image/webp" />
+                  <img
+                    src="./images/dr-ambrose.png"
+                    alt="Dr. David Ambrose"
+                    width="216"
+                    height="216"
+                  />
+                </picture>
                 <h3 data-i18n="ourDoctorsSection.doctors.davidAmbrose.name">
                   Dr. David Ambrose
                 </h3>
@@ -330,7 +445,16 @@
               </div>
 
               <div class="doctor-info">
-                <img src="./images/dr-breton.png" alt="Dr. Jenelia Breton" />
+                <picture>
+                  <source srcset="./images/dr-breton.avif" type="image/avif" />
+                  <source srcset="./images/dr-breton.webp" type="image/webp" />
+                  <img
+                    src="./images/dr-breton.png"
+                    alt="Dr. Jenelia Breton"
+                    width="216"
+                    height="216"
+                  />
+                </picture>
                 <h3 data-i18n="ourDoctorsSection.doctors.jeneliaBreton.name">
                   Dr. Jenelia Breton
                 </h3>
@@ -350,7 +474,16 @@
               </div>
 
               <div class="doctor-info">
-                <img src="./images/dr-aurora.png" alt="Dr. Jagajeet Aurora" />
+                <picture>
+                  <source srcset="./images/dr-aurora.avif" type="image/avif" />
+                  <source srcset="./images/dr-aurora.webp" type="image/webp" />
+                  <img
+                    src="./images/dr-aurora.png"
+                    alt="Dr. Jagajeet Aurora"
+                    width="216"
+                    height="216"
+                  />
+                </picture>
                 <h3 data-i18n="ourDoctorsSection.doctors.jagajeetAurora.name">
                   Dr. Jagajeet Aurora
                 </h3>
@@ -368,8 +501,14 @@
                   Appointment
                 </button>
               </div>
+
               <div class="doctor-info">
-                <img src="./images/dr-barua.jpg" alt="Dr. Pritis Barua" />
+                <img
+                  src="./images/dr-barua.jpg"
+                  alt="Dr. Pritis Barua"
+                  width="216"
+                  height="216"
+                />
                 <h3 data-i18n="ourDoctorsSection.doctors.pritisBarua.name">
                   Dr. Pritis Barua
                 </h3>
@@ -385,8 +524,18 @@
                   Appointment
                 </button>
               </div>
+
               <div class="doctor-info">
-                <img src="./images/dr-chen.jpg" alt="Dr. Lisa Chen" />
+                <picture>
+                  <source srcset="./images/dr-chen.avif" type="image/avif" />
+                  <source srcset="./images/dr-chen.webp" type="image/webp" />
+                  <img
+                    src="./images/dr-chen.png"
+                    alt="Dr. Lisa Chen"
+                    width="216"
+                    height="216"
+                  />
+                </picture>
                 <h3 data-i18n="ourDoctorsSection.doctors.lisaChen.name">
                   Dr. Lisa Chen
                 </h3>
@@ -413,20 +562,60 @@
           <div class="yellow-rect"></div>
 
           <div class="review-img">
-            <img
-              src="./images/review-image-1.png"
-              alt="girl with pink hair and glasses"
-              class="review-photo"
-            />
+            <picture>
+              <source
+                srcset="./images/review-image-1.avif"
+                type="image/avif"
+                class="review-source-1"
+              />
+              <source
+                srcset="./images/review-image-1.webp"
+                type="image/webp"
+                class="review-source-2"
+              />
+              <img
+                src="./images/review-image-1.png"
+                alt="A girl with pink hair and glasses"
+                class="review-photo"
+                width="238"
+                height="238"
+              />
+            </picture>
+
             <h3 class="review-author" data-i18n="reviewsSection.author_1">
               Samantha Payne
             </h3>
             <div class="stars">
-              <img src="images/star.svg" alt="yellow star" />
-              <img src="images/star.svg" alt="yellow star" />
-              <img src="images/star.svg" alt="yellow star" />
-              <img src="images/star.svg" alt="yellow star" />
-              <img src="images/star.svg" alt="yellow star" />
+              <img
+                src="images/star.svg"
+                alt="yellow star"
+                width="18"
+                height="16"
+              />
+              <img
+                src="images/star.svg"
+                alt="yellow star"
+                width="18"
+                height="16"
+              />
+              <img
+                src="images/star.svg"
+                alt="yellow star"
+                width="18"
+                height="16"
+              />
+              <img
+                src="images/star.svg"
+                alt="yellow star"
+                width="18"
+                height="16"
+              />
+              <img
+                src="images/star.svg"
+                alt="yellow star"
+                width="18"
+                height="16"
+              />
             </div>
           </div>
         </div>
@@ -436,7 +625,12 @@
           <h2 data-i18n="reviewsSection.title" id="review-title">
             What our clients say about us
           </h2>
-          <img src="./images/quote.svg" alt="quotation mark" />
+          <img
+            src="./images/quote.svg"
+            alt="quotation mark"
+            width="48"
+            height="48"
+          />
           <p class="review-content" data-i18n="reviewsSection.review_1">
             I've seen a lot of Dentists over my lifetime because I've had some
             serious dental issues. But my highest praise goes to Dr. Jonathon
@@ -447,8 +641,11 @@
 
           <div class="review-buttons">
             <input type="radio" name="review" id="review1" checked />
+            <label for="review1" class="sr-only">Review 1</label>
             <input type="radio" name="review" id="review2" />
+            <label for="review2" class="sr-only">Review 2</label>
             <input type="radio" name="review" id="review3" />
+            <label for="review3" class="sr-only">Review 3</label>
           </div>
         </div>
       </section>
@@ -464,7 +661,16 @@
         </div>
 
         <div class="appointment-content">
-          <img src="./images/appointment.png" alt="a smiling client" />
+          <picture>
+            <source srcset="./images/appointment.avif" type="image/avif" />
+            <source srcset="./images/appointment.webp" type="image/webp" />
+            <img
+              src="./images/appointment.png"
+              alt="A smiling client"
+              width="520"
+              height="668"
+            />
+          </picture>
 
           <form action="">
             <div class="form-name">
@@ -565,8 +771,18 @@
 
       <section class="newsletter-section hidden">
         <div class="newsletter-wrapper">
-          <img src="./images/top-left-line.svg" alt="top left line" />
-          <img src="./images/bottom-right-line.svg" alt="bottom right line" />
+          <img
+            src="./images/top-left-line.svg"
+            alt="top left line"
+            width="158"
+            height="111"
+          />
+          <img
+            src="./images/bottom-right-line.svg"
+            alt="bottom right line"
+            width="148"
+            height="93"
+          />
           <h2 data-i18n="newsletter">Subscribe to our newsletter</h2>
           <form action="">
             <input
@@ -599,7 +815,12 @@
       <div class="footer-wrapper">
         <div>
           <div class="logo-footer">
-            <img src="./images/logo-white.png" alt="dentics logo" />
+            <img
+              src="./images/logo-white.png"
+              alt="dentics logo"
+              width="39"
+              height="36"
+            />
             <h2>Dentics</h2>
           </div>
           <p data-i18n="footer.description">
@@ -609,11 +830,11 @@
         </div>
 
         <div>
-          <p class="first-p" data-i18n="footer.visiting.message">
+          <span class="first-p" data-i18n="footer.visiting.message">
             We are welcoming you
-          </p>
+          </span>
           <h4 data-i18n="footer.visiting.title">Want to visit our clinic?</h4>
-          <p data-i18n="footer.visiting.schedule.days">Saturday - Thrusday</p>
+          <p data-i18n="footer.visiting.schedule.days">Saturday - Thrursday</p>
           <p data-i18n="footer.visiting.schedule.hours">10 am - 9 pm</p>
         </div>
 
@@ -621,44 +842,26 @@
           <p data-i18n="footer.importantLinks.heading">Important links</p>
           <ul>
             <li>
-              <a
-                href="javascript:void(0)"
-                data-i18n="footer.importantLinks.facebook"
+              <a href="#" data-i18n="footer.importantLinks.facebook"
                 >Facebook</a
               >
             </li>
             <li>
-              <a
-                href="javascript:void(0)"
-                data-i18n="footer.importantLinks.twitter"
-                >Twitter</a
-              >
+              <a href="#" data-i18n="footer.importantLinks.twitter">Twitter</a>
             </li>
             <li>
-              <a
-                href="javascript:void(0)"
-                data-i18n="footer.importantLinks.instagram"
+              <a href="#" data-i18n="footer.importantLinks.instagram"
                 >Instagram</a
               >
             </li>
             <li>
-              <a
-                href="javascript:void(0)"
-                data-i18n="footer.importantLinks.career"
-                >Career</a
-              >
+              <a href="#" data-i18n="footer.importantLinks.career">Career</a>
             </li>
             <li>
-              <a
-                href="javascript:void(0)"
-                data-i18n="footer.importantLinks.support"
-                >Support</a
-              >
+              <a href="#" data-i18n="footer.importantLinks.support">Support</a>
             </li>
             <li>
-              <a
-                href="javascript:void(0)"
-                data-i18n="footer.importantLinks.privacyPolicy"
+              <a href="#" data-i18n="footer.importantLinks.privacyPolicy"
                 >Privacy policy</a
               >
             </li>
