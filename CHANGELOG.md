@@ -2,6 +2,40 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [1.5.0](https://github.com/OleksandrZadvornyi/dental-clinic-landing-page/compare/v1.4.9...v1.5.0) (2025-02-14)
+
+
+### 💄 Styling
+
+* fix hero image overflowing on mobile ([b90426a](https://github.com/OleksandrZadvornyi/dental-clinic-landing-page/commit/b90426a01429ec1063f7a22c224f2aeecb189cbf))
+
+
+### ⚡️ Performance
+
+* reduce render-blocking for fonts ([f6f55fd](https://github.com/OleksandrZadvornyi/dental-clinic-landing-page/commit/f6f55fdd7bd728f411bb75adf386951326b82b25))
+* remove Font Awesome and use PNG icon ([d0dd020](https://github.com/OleksandrZadvornyi/dental-clinic-landing-page/commit/d0dd020f4c0046af2e0a25c08d8e36e3ce338808))
+* set explicit width and height for images ([50db5f6](https://github.com/OleksandrZadvornyi/dental-clinic-landing-page/commit/50db5f647a9c412109ee689c6c92863a4f5ad32d))
+
+
+### ♻️ Code Refactoring
+
+* fix heading structure ([ca8fe43](https://github.com/OleksandrZadvornyi/dental-clinic-landing-page/commit/ca8fe43b426c71d7b6e113c72544cd7581749531))
+
+
+### ✨ Features
+
+* add .sr-only class for accessibility ([72221cd](https://github.com/OleksandrZadvornyi/dental-clinic-landing-page/commit/72221cda14d93f0067e1c059b2a0e282b12eee3f))
+* add SEO and social meta tags ([e612993](https://github.com/OleksandrZadvornyi/dental-clinic-landing-page/commit/e6129939f344386e70040e35e9781b088bd7acf4))
+* improve images with WebP and AVIF support ([18231ca](https://github.com/OleksandrZadvornyi/dental-clinic-landing-page/commit/18231cab3c8891e04b5f81d5a2ef7fc16ea80bec))
+
+
+### 🐛 Bug Fixes
+
+* correct typo in "Thursday" ([0c29fd0](https://github.com/OleksandrZadvornyi/dental-clinic-landing-page/commit/0c29fd0daed06cf9cf01c303826b173f7c3d7c01))
+* display menu button with correct aspect ratio ([c712616](https://github.com/OleksandrZadvornyi/dental-clinic-landing-page/commit/c71261611e11f131da7d791975381cc80b3db47b))
+* make links crawlable ([774661b](https://github.com/OleksandrZadvornyi/dental-clinic-landing-page/commit/774661bd8384299d086d48c3b369cfbe782b84e7))
+* replace images with low resolution ([d524f62](https://github.com/OleksandrZadvornyi/dental-clinic-landing-page/commit/d524f6252ee336c1454553aca74494c9b6411284))
+
 ### [1.4.9](https://github.com/OleksandrZadvornyi/dental-clinic-landing-page/compare/v1.4.8...v1.4.9) (2025-02-11)
 
 
