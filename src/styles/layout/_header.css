@@ -80,6 +80,11 @@ button.icon {
   background-color: transparent;
 }
 
+button.icon > img {
+  width: 100%;
+  height: auto;
+}
+
 .responsive-nav {
   display: flex;
   flex-direction: column;
