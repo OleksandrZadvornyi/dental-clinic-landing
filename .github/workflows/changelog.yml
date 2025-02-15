@@ -54,7 +54,7 @@ jobs:
           awk '
             /^# Changelog/ { next }
             /^All notable/ { next }
-            /^### \[[0-9]+\.[0-9]+\.[0-9]+\]/ { if (p) exit; p=1; print "## 🚀 What'\''s Changed\n" }
+            /^#{1,3} \[[0-9]+\.[0-9]+(\.[0-9]+)?\]/ { if (p) exit; p=1; print "## 🚀 Whats Changed\n" }
             p { print }
           ' CHANGELOG.md > RELEASE_NOTES.md
 
